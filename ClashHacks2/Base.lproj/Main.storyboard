@@ -61,13 +61,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FireFighter 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJl-C5-Ux2">
-                                <rect key="frame" x="56" y="404" width="94.5" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOS Time Limit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJl-C5-Ux2">
+                                <rect key="frame" x="56" y="404" width="118" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAo-HM-6Ui">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAo-HM-6Ui">
                                 <rect key="frame" x="196" y="433" width="163" height="136"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="136" id="z8f-fV-sJe"/>
@@ -76,7 +76,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bli-i1-PJQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bli-i1-PJQ">
                                 <rect key="frame" x="34" y="433" width="163" height="136"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="136" id="gjt-f9-GuP"/>
@@ -85,14 +85,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FireFighter 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTN-Vb-Sph">
-                                <rect key="frame" x="221" y="404" width="94.5" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O2 Level" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTN-Vb-Sph">
+                                <rect key="frame" x="248.5" y="404" width="67" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emergency SOS Done : No " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qc2-Bv-94F">
-                                <rect key="frame" x="83" y="577" width="209" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emergency SOS Done : No " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qc2-Bv-94F">
+                                <rect key="frame" x="36" y="577" width="303" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -107,8 +107,8 @@
                             <constraint firstItem="wAo-HM-6Ui" firstAttribute="trailing" secondItem="26i-aB-BvZ" secondAttribute="trailingMargin" id="HdV-Qu-q5V"/>
                             <constraint firstItem="PLl-LI-sJ1" firstAttribute="leading" secondItem="26i-aB-BvZ" secondAttribute="leadingMargin" id="Iog-ei-CEg"/>
                             <constraint firstItem="PLl-LI-sJ1" firstAttribute="trailing" secondItem="26i-aB-BvZ" secondAttribute="trailingMargin" id="OhH-JO-ew7"/>
-                            <constraint firstItem="qc2-Bv-94F" firstAttribute="leading" secondItem="26i-aB-BvZ" secondAttribute="leadingMargin" constant="67" id="PWP-ex-L82"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="qc2-Bv-94F" secondAttribute="trailing" constant="67" id="Ryb-Yl-Qqh"/>
+                            <constraint firstItem="qc2-Bv-94F" firstAttribute="leading" secondItem="26i-aB-BvZ" secondAttribute="leadingMargin" constant="20" id="PWP-ex-L82"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qc2-Bv-94F" secondAttribute="trailing" constant="20" id="Ryb-Yl-Qqh"/>
                             <constraint firstItem="bli-i1-PJQ" firstAttribute="top" secondItem="zJl-C5-Ux2" secondAttribute="bottom" constant="8.5" id="TCo-XN-waZ"/>
                             <constraint firstItem="qc2-Bv-94F" firstAttribute="centerX" secondItem="26i-aB-BvZ" secondAttribute="centerX" id="aQr-SR-x5a"/>
                             <constraint firstAttribute="leadingMargin" secondItem="zJl-C5-Ux2" secondAttribute="leading" constant="-40" id="dFl-aq-Oav"/>
@@ -145,6 +145,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="gKq-LE-GJW" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="FZr-vA-4xM">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -157,11 +158,11 @@
             </objects>
             <point key="canvasLocation" x="-79.200000000000003" y="127.28635682158921"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="ria-tb-9lB">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eiR-ft-ykf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="bGC-sW-G38"/>
+                    <tabBarItem key="tabBarItem" systemItem="more" id="bGC-sW-G38"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="YRP-bw-CbB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -176,11 +177,11 @@
             </objects>
             <point key="canvasLocation" x="860" y="931.48425787106453"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="29g-y6-sLz">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="y4Z-7T-DCV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="edy-Oa-CEW"/>
+                    <tabBarItem key="tabBarItem" systemItem="history" id="edy-Oa-CEW"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="plr-nA-r7R">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

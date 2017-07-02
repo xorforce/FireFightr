@@ -19,9 +19,16 @@ class FireFighterInfoViewController: UIViewController,MKDropdownMenuDelegate,MKD
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var dropDown: MKDropdownMenu!
     let firefighters = ["Firefighter 1","Firefighter 2","Firefighter 3"]
+    let images = ["1.jpg","2.jpg","3.jpg"]
+    let sos = ["No", "Yes", "No"]
+    let sosTime = ["10", "5", "20"]
+    let o2level = ["50", "70", "20"]
     override func viewDidLoad() {
         super.viewDidLoad()
         fetchData()
+        dropDown.delegate = self
+        dropDown.dataSource = self
+        
     }
     
     func numberOfComponents(in dropdownMenu: MKDropdownMenu) -> Int {
@@ -41,10 +48,10 @@ class FireFighterInfoViewController: UIViewController,MKDropdownMenuDelegate,MKD
     }
 
     func dropdownMenu(_ dropdownMenu: MKDropdownMenu, didSelectRow row: Int, inComponent component: Int) {
-//        image.image = images[row]
-//        soslabel.text =
-//        sostime.text =
-//        o2levels.text =
+        image.image = UIImage(named: images[row])
+        soslabel.text = "Emergency SOS Done : \(sos[row])"
+        sostime.text = sosTime[row]
+        o2levels.text = o2level[row]
         name.text = firefighters[row]
     }
     
