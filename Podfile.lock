@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.2.0)
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+  - MKDropdownMenu (1.3.1)
+  - SensingKit (0.5.1)
+  - SwiftyTimer (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - GoogleMaps
+  - MKDropdownMenu
+  - SensingKit (from `https://github.com/SensingKit/SensingKit-iOS.git`, branch `next`)
+  - SwiftyTimer
+
+EXTERNAL SOURCES:
+  SensingKit:
+    :branch: next
+    :git: https://github.com/SensingKit/SensingKit-iOS.git
+
+CHECKOUT OPTIONS:
+  SensingKit:
+    :commit: a8df0f78187df296c22d486c02283ce1b7a180c1
+    :git: https://github.com/SensingKit/SensingKit-iOS.git
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  MKDropdownMenu: 4c08580d8eac5b0229845cfd52775cdc7af77aad
+  SensingKit: 037b5f524bf0ddc00e14043a1aacb4a4122578bb
+  SwiftyTimer: 2efd74b060d69ad4f1496baf5bbedbe132125fcf
+
+PODFILE CHECKSUM: 883d4280ec9d06f22340c7d15d6e17ebccfc39e6
+
+COCOAPODS: 1.2.1

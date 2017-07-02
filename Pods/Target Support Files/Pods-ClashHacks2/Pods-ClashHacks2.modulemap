@@ -1,0 +1,6 @@
+framework module Pods_ClashHacks2 {
+  umbrella header "Pods-ClashHacks2-umbrella.h"
+
+  export *
+  module * { export * }
+}

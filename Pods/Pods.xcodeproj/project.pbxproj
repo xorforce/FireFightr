@@ -1,0 +1,1618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		087DC0C1111EA2B24DEA30DE8E206B6C /* SKGyroscopeConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C0591CC4DB289C952B8BCEF3071906 /* SKGyroscopeConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		098AE00855317E95C80BB27FDD0F2FA4 /* SKMagnetometerData.h in Headers */ = {isa = PBXBuildFile; fileRef = F86C9D77A2AE4397170FE8CCE819CD7B /* SKMagnetometerData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D69EB22CB866D1C4D1327C1DE23A452 /* SKAltimeterConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 31829E33118941C6B422BBCF28F61F64 /* SKAltimeterConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E4444A53ACDA1D432D45210BB73BFBB /* ESSEddystone.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA13E5C0840BBECCF24FE77986F5D7 /* ESSEddystone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02276A9190E035CE56F8AE928EBF27A5 /* Timeline.swift */; };
+		1150EFED23F077F452D91D12F50A17E5 /* SKLocationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A700DDFE87DB066E6320EF57763AC56 /* SKLocationData.m */; };
+		1A7FDF8D97DE059C72390561C54640A3 /* SKMotionActivityData.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AF0B2147AA7BF57191524935B66124 /* SKMotionActivityData.m */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA98465E7699AF65E67FFC5FF44B6BB9 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BEA242A8B108DDF2843D4E2218B7A06 /* SKiBeaconProximity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3042A7D9E76EAF44A9E714BCC25EA589 /* SKiBeaconProximity.m */; };
+		1C29E257AE4D3DEA6A42A72E26517B19 /* SensingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93212B6B8AC6EB00EC11E0B6D848F9A6 /* SensingKit-dummy.m */; };
+		2025DF7200DFAB486180003E5BBAAAF4 /* SKiBeaconProximityConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AEF279C67E8EE18D57AFC442AAB644 /* SKiBeaconProximityConfiguration.m */; };
+		217F3CE528844B9A83D5AD5B6E9D44B8 /* SKBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = A66619786FC324AD00D69F1669430B95 /* SKBattery.m */; };
+		22817EB123E6774D86A67F1847E393F1 /* SKPedometer.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0E324ACADE776EF75260E5F366A389 /* SKPedometer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ABB8E4FFC24C40313F33EC7B98A3B24 /* ESSBeaconScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5140FB1B39C3D729F47E928B5E351D59 /* ESSBeaconScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B25AF64C8EE41E49C45E8B44C381326 /* SKDeviceMotionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 95498B83E0C7B0AF2BED8DB182877F0C /* SKDeviceMotionConfiguration.m */; };
+		2CC7FE55D904E9B2317A22D408AFBACB /* SKDeviceMotionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7075D4B49BC787A7ED83EF7017E6E67F /* SKDeviceMotionData.m */; };
+		2F39480EDCC230ECEF534BF04A400D88 /* SKAccelerometerData.m in Sources */ = {isa = PBXBuildFile; fileRef = E382A218E02FD67F9C663B1B0D74765F /* SKAccelerometerData.m */; };
+		304CBC297C4CE8EED7DB08DB27BE9867 /* SKDeviceMotionConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7171D73C0B96391D78833EFC2247AA /* SKDeviceMotionConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30FB247F3172F2B4059489AFF8F6740B /* SKAltimeterConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 648CB387BB1342D70222BF6793BA49F6 /* SKAltimeterConfiguration.m */; };
+		3469C38179F2E66DC0B88DF2D3E0FCEB /* SKAltimeterData.h in Headers */ = {isa = PBXBuildFile; fileRef = 766BC6487A547A3C65ABB6E65680DB07 /* SKAltimeterData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		358A5C2761AED960D66484D69F306510 /* Pods-ClashHacks2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D76D0C5B9648D96775E53F74AD6E2F /* Pods-ClashHacks2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711D9D079674219F4F3F1E0BB573D76 /* TaskDelegate.swift */; };
+		38EBAF3BBBB24793EB5777DE7930D561 /* SKGyroscope.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ECAF8D0902A211D9693E08E0C751619 /* SKGyroscope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		395FC86ABA3C572519B297FDB2D83E3F /* SKHeadingData.h in Headers */ = {isa = PBXBuildFile; fileRef = 048F15AE6A7A845916B318837CAE39EF /* SKHeadingData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3993DDBEADEB5CE33634BE827794521D /* SKProximityData.m in Sources */ = {isa = PBXBuildFile; fileRef = C62631064AE4A2488494D43E6ECEDE23 /* SKProximityData.m */; };
+		3C499E41E275CE7F498C1BC943F5BA1E /* SKLocationConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 758DFF4F353935EDF74DD3EEED28493E /* SKLocationConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D6453FE90C3D3BEAED360554C479AB3 /* SKSensorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68EF4E5D52679246CBC9C45786739967 /* SKSensorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4044FAABBD01349893CFB1B59C755748 /* SKiBeaconDeviceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F4A0855B739C86DDD6DAD9022D332E /* SKiBeaconDeviceData.m */; };
+		407440C5216AD13499D01DC3B72860CC /* MKDropdownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = DE9EA1FF666BA973F6C824FABC15B77B /* MKDropdownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4074E3D41C90BD182E60ABF674589F50 /* Pods-ClashHacks2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E461862E02703DF72415A44D7A36A2D /* Pods-ClashHacks2-dummy.m */; };
+		40B3AFE9301821271B40ED93382B8358 /* SKEddystoneProximityData.h in Headers */ = {isa = PBXBuildFile; fileRef = 805CB99FFCF2A503F51B71216D8817A8 /* SKEddystoneProximityData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44AD71509ECD24660BDC696C7E761780 /* SKEddystoneProximityData.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CADF8E37580AF9EDF3677DE4A5632D /* SKEddystoneProximityData.m */; };
+		45E3875C0B5E612ADD85640838594D99 /* ESSBeaconScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4414424C0BA548602B4277AC2488A269 /* ESSBeaconScanner.m */; };
+		4A1BFA3466443A3449E4B0019607501F /* SKDeviceMotion.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FE6D26FCC111132810BF58897C1593 /* SKDeviceMotion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B928BA447B8EF57B570E4926DABD652 /* MKDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 08719FEC9796654846613DC6519DDB0C /* MKDropdownMenu.m */; };
+		4BA9D9D3B896107A9C0C02A08C46C917 /* SKHeadingConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F199006EC876A13CF2FE9EA0CE8778 /* SKHeadingConfiguration.m */; };
+		4EAEA680F3C437676E2A3CA83D592B7F /* SKLocationData.h in Headers */ = {isa = PBXBuildFile; fileRef = 724D890C6967A7A10757B66495749FC8 /* SKLocationData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EE3C8C7D8EE1C80A59303C21FBBCF95 /* SKHeadingData.m in Sources */ = {isa = PBXBuildFile; fileRef = 442FBEAC4F1E0E6055C9C148A31A483A /* SKHeadingData.m */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CB35B56DC3DDB61DD026A85F1EF793 /* Request.swift */; };
+		53E39641466692DEFCA88AFD7A33D3C2 /* SKMagnetometer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C56378B35CA535E044714F1D374891D /* SKMagnetometer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5402747472B51F29722B13265491E58B /* SKMicrophoneConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9746C0A44D11B54A1D7F477012AC40 /* SKMicrophoneConfiguration.m */; };
+		571AC84A11AFBA27062318288C42B51E /* SKAltimeter.h in Headers */ = {isa = PBXBuildFile; fileRef = A1369C256CDD4E97FDC79C47CD284551 /* SKAltimeter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A4D339CD38A7F55407A907A29AA2DFC /* SKEddystoneProximity.h in Headers */ = {isa = PBXBuildFile; fileRef = 5179150677FA9A57F60F9B978E6C2630 /* SKEddystoneProximity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AF0139984B273CC49727B771C14549F /* SKMotionActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 739555747E98EAA6223E906F8A12D110 /* SKMotionActivity.m */; };
+		5D65C1A1252932C23C1134B2D3A230A7 /* SKConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = C35A4280A3A2B0A795BD0C92EC14789D /* SKConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E59D796E5D70603B653979B2448247B /* SKGyroscope.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC4B170EB798CDFB9435FE113947330 /* SKGyroscope.m */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC36AB3F006E2F4DF288F583DC103D0 /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1897EF26BF958F5FBCED14C574C17FE /* ServerTrustPolicy.swift */; };
+		6749EDA7595AE4AB6354783C149F32C0 /* SKPedometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 185BB726B22C669F762A229C3AA430A0 /* SKPedometer.m */; };
+		67A041380514897E98AD331DD44992DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		67AB31A6C4EBE4220DC4963516A423C2 /* SKSensorData.h in Headers */ = {isa = PBXBuildFile; fileRef = A32E93916D3B86E5B40C477524C9A2F4 /* SKSensorData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67B71F2508FC424EA20BB6FED67C13D9 /* SKAbstractSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9082589F27EC099DA76E43B3B61027F1 /* SKAbstractSensor.m */; };
+		68B99C77A9D383C89604BA85603D1D9A /* SKMicrophoneData.h in Headers */ = {isa = PBXBuildFile; fileRef = 34ECABD9B1406E3882AFAD8964E2008E /* SKMicrophoneData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69EC0E96321F7D57C372BF2BAEAB32FE /* SKGyroscopeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E039FD7FAB50DD8B1E2D278E0098B9 /* SKGyroscopeData.m */; };
+		6AE914849AE2769BCD0C432A408709C5 /* SKBatteryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8224C7B8C43E3238DD416287E4931 /* SKBatteryData.m */; };
+		6C55B6882B84F94D1013E09ED48A3805 /* SKPedometerData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E1196EACFBD825E883A7ECDFD45E07 /* SKPedometerData.m */; };
+		6E19C4C6B4E790F16F10C8DD40E96C2E /* SKAccelerometer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F4FE7512B0A8B14BC683082B39B383E /* SKAccelerometer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EB60CC98A0ED7719ACE873B42766864 /* SKAccelerometerData.h in Headers */ = {isa = PBXBuildFile; fileRef = 28DFC1DE0BDCBB66FBC5161710ED72E1 /* SKAccelerometerData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F62B72FB0A5C3DCDFA5A33DBBBF32EC /* ESSEddystone.m in Sources */ = {isa = PBXBuildFile; fileRef = 185F674C33AAE9CCAE9ADB82F618ABA8 /* ESSEddystone.m */; };
+		6FBA7E2E414B9A228D1955EBC06C776C /* SKEddystoneProximityConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29C99914394201A4DC5AB407BB2439 /* SKEddystoneProximityConfiguration.m */; };
+		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7538437E110177FEDB65019422472F8E /* SKMotionActivityConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 131DB1F9A01D311E93C7891C58A1D379 /* SKMotionActivityConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78010A27EEBBE2179669848ECAEA2EA9 /* ESSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 669D758759F2326BFE11DFE6420A3673 /* ESSTimer.m */; };
+		78C13B06E051BD6A51F3BC9929D8DC6E /* MKDropdownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 832D54D2D17B7D4C96733893FCE6CD55 /* MKDropdownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78F26436EAB92100A287CADC6F96A176 /* SKMotionActivityConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF8FB159FB3DDFD992F4976C6D9B60B /* SKMotionActivityConfiguration.m */; };
+		78F3DA702E8FC4559A6FFECED70721FA /* SKErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 6642150B120EE8C9809F52A82F1D2924 /* SKErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C54262B78D2EAC2CDC19BF5EA8FFCC9 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E90D41850149F156B40B595D8A4B5 /* Result.swift */; };
+		801BC3D0AAC925C5814249BF30D7BEFB /* SKMicrophoneConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = A758298898F044E9B8BF4FD8122EDD49 /* SKMicrophoneConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		850F9256C4EB289588FDB84EEA90B688 /* SKLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E0CECC81C46B39E2EA23A1ECE4C0D4B /* SKLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88003757E0ACC7FF0A15FFDF9FE7BF03 /* SKMotionActivityData.h in Headers */ = {isa = PBXBuildFile; fileRef = E0E3137862FD64D9B9451E997AEA1A4E /* SKMotionActivityData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8973E4F39D9AB43F987A078312828274 /* SKEddystoneProximityConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 557F428020B77D9706E7B6F2D1B8AAD2 /* SKEddystoneProximityConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B85D500EDB0AD3163B87B3DE7857DDB /* SKBatteryConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0C4CFCF81DAD9B727FDBD88405B4D5 /* SKBatteryConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D1727A6A59F122B24D30C052347092C /* SKAltimeterData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E48599BC844F1882F27DE9B2B44DC65 /* SKAltimeterData.m */; };
+		92DC60968FBAA5D623E789E63D22E450 /* SKiBeaconDeviceData.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D7FDE6E4B270419F8EED5462972BA8 /* SKiBeaconDeviceData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		957E99301C90EFEA939F953D59BDDE14 /* SKBatteryConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE34654AB3D4851691785834EC445DD /* SKBatteryConfiguration.m */; };
+		97017666CF5C88976ACB93CA2A7AC989 /* SKMagnetometerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE0E76BBEBF02CB764373D7E1C069C9 /* SKMagnetometerConfiguration.m */; };
+		9988CD10D58F08CD9ABE86DBF2E0EA8D /* SKConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2016F18686F4DBBCAAB4F42B4BB9AB /* SKConfiguration.m */; };
+		9A7812DA0B4C540CCAB4EE841638913E /* MKDropdownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0146C9CA7854660B142170AD2FB3BCD5 /* MKDropdownMenu-dummy.m */; };
+		9DD267B72AB9B6B1DB6DF801C8D92B90 /* SKGyroscopeConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D620E59E2DFB0D4BC3273D0768EA9A8A /* SKGyroscopeConfiguration.m */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83861BAC8273D36F950D01F4E7815B4E /* AFError.swift */; };
+		A0281B9CC84246CA3979AE4342D87ABB /* SKSampleRateConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E86BCA82BBBA31FCC7FF7D8FCEB3DD /* SKSampleRateConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0887D0927DC868D11E3A4C74872BCBD /* SKDeviceMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = A3268F3722DA0DE54BE7AF3B07371A99 /* SKDeviceMotion.m */; };
+		A147E94117737CD9DE2DD27C46E666FB /* SKGyroscopeData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F32F4F15D20C9F19BFEAE6CFEFABE89 /* SKGyroscopeData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A200E1FEE5EC69C5E113F1A56A2D534F /* SKSensorTimestamp.m in Sources */ = {isa = PBXBuildFile; fileRef = FA572A48A227065225AFC918BD4DDF9A /* SKSensorTimestamp.m */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A07455ECA94648664B131754936888 /* NetworkReachabilityManager.swift */; };
+		A3B8B04D15A729EF757A2599EB56FCDE /* SKAbstractSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E283916ADEF05E959A9718E0A5D899C /* SKAbstractSensor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A48B00267909966375F14E35A5279598 /* SKAltimeter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD343A5FF342F9DFB1A351BF87A549C4 /* SKAltimeter.m */; };
+		A5033962E0C46F824B424D3022981D4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A53EB29B8C920AE02003B9BA62F68C4F /* SKAccelerometerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F0AB898FEB7C97EF8D6E706DBE923A /* SKAccelerometerConfiguration.m */; };
+		A594831CDCB5EEC4AA8BAC195705C9E6 /* SKBattery.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB5BD19AB83D3E759D390C789DF5778 /* SKBattery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A664DE0C0BDAC27F357A68DD79FD07CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A74A1DAEC44D5ACC82A5E457B738DF6A /* SKiBeaconProximity.h in Headers */ = {isa = PBXBuildFile; fileRef = 1665C7C3716D5C3BA7205C3BC85068CF /* SKiBeaconProximity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4336228EF980DBEF2A90BC65A20C4F1 /* Alamofire-dummy.m */; };
+		AB60863099BE14D356BEA32373DB66F8 /* SKLocationConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490C1F5FF23D5D82E81D265266A0A25 /* SKLocationConfiguration.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3095646C74CA09315DA0197F1F6827B /* SessionManager.swift */; };
+		B16F51E789EF7146B6119888E5997269 /* SKPedometerConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = D67647148BD4F6F4BDB078C990972E95 /* SKPedometerConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B33D01E705A95A6933636BBB7961F87B /* SKSensorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 168A9B0BE717EBAAC00644350DFBDF21 /* SKSensorManager.m */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D634051FD219A71D3274FFB64E51D96E /* MultipartFormData.swift */; };
+		B7BCA7CDABCE4DCB23A040C9AD5CDE2E /* SKHeadingConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C53FCDE8B623542F4FD97CB491172F3 /* SKHeadingConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB31B147CA5CB132D648D03DACC3EE9F /* SKMagnetometerConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC516E9E8D8D123FB0CA0A310FB5D2D /* SKMagnetometerConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBB652CC259A77EFF4C0C88649D2F42E /* SKMicrophoneData.m in Sources */ = {isa = PBXBuildFile; fileRef = F11BC50F6A7E605A0FC9D0DECC277941 /* SKMicrophoneData.m */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B84AF781050D923F2CE1DE7C2AD5A4 /* Validation.swift */; };
+		BDDC7FB5190ECCA9497F57ABF55BCA45 /* SKMicrophone.h in Headers */ = {isa = PBXBuildFile; fileRef = 9306922382CA9DCC0F3FA6B2877E9D53 /* SKMicrophone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE0D4038B860B68DB7F80BFE877ACC /* ParameterEncoding.swift */; };
+		C1C65DB7EAD86B59183DDA45A02C8763 /* ESSTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = F578ABBE8D1FB86C78E7DA74D1331BC9 /* ESSTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2E54CCAB759029C338B0099F6FC9A20 /* SKPedometerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F009F5FE983791B74296F91CCB9AA2D /* SKPedometerConfiguration.m */; };
+		C62EB2F16024DD402906E9303A2C3BDD /* NSString+SensorType.m in Sources */ = {isa = PBXBuildFile; fileRef = D55DC2BCA4DB27F93B67590B3BF3ED30 /* NSString+SensorType.m */; };
+		C8F45993164ABAC927F31A0EED64E39E /* SKBatteryData.h in Headers */ = {isa = PBXBuildFile; fileRef = 101AFF8F1B7F47673FD0CEF9F972DCFC /* SKBatteryData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D4F31506ED3F5FAF413A078483D44 /* Response.swift */; };
+		CB828451E34F6F9059E8CC256F083E8C /* SKAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4CFAE6F003ED3FF9C34E8EB4B0FDD6 /* SKAccelerometer.m */; };
+		D0DFAAF1B23298E00EB4F915DA789472 /* SwiftyTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57EBD868682EC8FA77BCB76952CFA442 /* SwiftyTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D45EE6A0F08B977E6F1937BB96BDB88A /* SKAccelerometerConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 81F55133EB08D080ECE7D16CBED29CF1 /* SKAccelerometerConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D738CDF057340AA990A1A439E87C2BDB /* SKHeading.m in Sources */ = {isa = PBXBuildFile; fileRef = 8511007F9B62B7D9B51109A522E00435 /* SKHeading.m */; };
+		D8075F2A2BC53D79CFD84FC100AF2684 /* SwiftyTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F47B874E858810402D168F2479FAA336 /* SwiftyTimer-dummy.m */; };
+		D81FC2C4D0347B36D4F3077B44E1D155 /* SKDeviceMotionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D91E3CFA9AE1C07976EC58082191127 /* SKDeviceMotionData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8A7806D342AD58D8EBDA73422248E54 /* SKMotionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 51969727310907C77C597767F21AF5A1 /* SKMotionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEBC245A21C835A11FE3C4B472EEB589 /* SKEddystoneProximity.m in Sources */ = {isa = PBXBuildFile; fileRef = FB09837B5E1B017C6913BC06E365EE01 /* SKEddystoneProximity.m */; };
+		DED0B7E479955E2BA6AF7EA9E13082E0 /* NSString+SensorType.h in Headers */ = {isa = PBXBuildFile; fileRef = FF48D7382B4A4ABEA22FD9E023EC57C3 /* NSString+SensorType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E236EF15A87306E1D388608804163AD1 /* SKHeading.h in Headers */ = {isa = PBXBuildFile; fileRef = A30A57A7D4BEA3D7CC54057DF5F4B57E /* SKHeading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E31AC0F8059A4A185EF2EA8844A6973C /* SKSampleRateConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D2299B809266A5B79EB2A40E2AAC332F /* SKSampleRateConfiguration.m */; };
+		E33D666264811F21C78C13A8C3384D05 /* SKSensorDataHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD95F13F16475A962BC4710226E7C9F /* SKSensorDataHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4FE6333B41C1DBEE478458AC4D2EDCE /* SKLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E57233186AA2CF4D63F7E9639B17DA50 /* SKLocation.m */; };
+		EBD697E5F697A857890AF81E9764F080 /* SKMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EAB759D0E2E108F1CF54769572D1F9 /* SKMicrophone.m */; };
+		EF7B515774069E8966541BBD52D88F2B /* SensingKitLib.h in Headers */ = {isa = PBXBuildFile; fileRef = ED339DD9B4FAE75F97CEFF73F852DC48 /* SensingKitLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF80EFBDF110DC93AA9DF0597A458638 /* SKProximityData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4207EDA8841778BEE4D78FFF42FF3DF0 /* SKProximityData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA868939E655C126E9124E3A98F57946 /* Notifications.swift */; };
+		F133FABC04E50157D5A1EC0471357411 /* SKMagnetometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA3D97F85AEEA4FB112A0F741955066 /* SKMagnetometer.m */; };
+		F1E143288493EBCED78EC806D0726BDD /* SKSensorType.h in Headers */ = {isa = PBXBuildFile; fileRef = A1CD949968C1A127D8E2D472C5289710 /* SKSensorType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2815C1F50D36A25A838DFF78E07DAE9 /* SKMagnetometerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 561B3206A7F4D61AA3886C2B39B17A1D /* SKMagnetometerData.m */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E944F5B44F6C4C08B0EA4BB94AEAF71 /* ResponseSerialization.swift */; };
+		F767DAABB8DD9782AA61EFBA334959CF /* SensingKitLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 005A8E47FD3D87B8935B127A1D190052 /* SensingKitLib.m */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186ECC62EA645255430A2B3EB7F4CAD7 /* Alamofire.swift */; };
+		F93C03C54B17DD213546781D119C4900 /* SensingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 36409ACB0139391243C9CBA34B7B4D65 /* SensingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8B7C01A2CD406DDA284D0C63994879 /* SKSensorData.m in Sources */ = {isa = PBXBuildFile; fileRef = 802FEABEEA83C7868C1E1319AD67FF30 /* SKSensorData.m */; };
+		FAC91B5C85857E0FC532DF932DC4D17C /* SwiftyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437A61F637AE63629B1405E999BD485E /* SwiftyTimer.swift */; };
+		FAF4EB9BBA7362C9B568BA59E5D07836 /* SKMotionActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AED4334BDEF3392AB5FEF695B6C8AC3 /* SKMotionActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB0361A68ACB86F4F7BD691EF3E7AB18 /* SKiBeaconProximityConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 53425292D2D6B8BC63F3B8586F434A40 /* SKiBeaconProximityConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBBB3ED57BA6666E7A5F6100E3817738 /* SKSensorTimestamp.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A1A593282D12D8A8EB247F18C1A119D /* SKSensorTimestamp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC04A2595AF0F639240DA9B0186755F6 /* SensingKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C45A8524DCE82859D65E94B5A17B51D /* SensingKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD807AEE1FB92B597982106293BB20B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FD9FDA715AEBD5A1B83C38EF1434FD62 /* SKMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0FF1CFFFED08080A18F8EABE5D2BDC /* SKMotionManager.m */; };
+		FF56EE4CEC572EA7319DC641C18CF933 /* SKPedometerData.h in Headers */ = {isa = PBXBuildFile; fileRef = 16ABE92066F0578F6D6E32E85B7D5019 /* SKPedometerData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		518C8D38246F963E7B2A05C55F2CCC30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D877AA9F31735BDEC356927A7B4BF18B;
+			remoteInfo = SensingKit;
+		};
+		93C4CBB3B18734A34281786925DE2954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23E3022C480A119433C2C13D19697E61;
+			remoteInfo = SwiftyTimer;
+		};
+		9C9EA3B3EDA28D66EEB53484D8E5920C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5998E20F683EE1E9022DCED6FFD564C;
+			remoteInfo = MKDropdownMenu;
+		};
+		F7F7B5F403F27ACB9F55EDB2C85DC8FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005A8E47FD3D87B8935B127A1D190052 /* SensingKitLib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SensingKitLib.m; path = SensingKit/SensingKitLib.m; sourceTree = "<group>"; };
+		0146C9CA7854660B142170AD2FB3BCD5 /* MKDropdownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKDropdownMenu-dummy.m"; sourceTree = "<group>"; };
+		02276A9190E035CE56F8AE928EBF27A5 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		048F15AE6A7A845916B318837CAE39EF /* SKHeadingData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKHeadingData.h; path = SensingKit/SKHeadingData.h; sourceTree = "<group>"; };
+		08719FEC9796654846613DC6519DDB0C /* MKDropdownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKDropdownMenu.m; path = MKDropdownMenu/MKDropdownMenu.m; sourceTree = "<group>"; };
+		0E0CECC81C46B39E2EA23A1ECE4C0D4B /* SKLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKLocation.h; path = SensingKit/SKLocation.h; sourceTree = "<group>"; };
+		0EB5BD19AB83D3E759D390C789DF5778 /* SKBattery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKBattery.h; path = SensingKit/SKBattery.h; sourceTree = "<group>"; };
+		101AFF8F1B7F47673FD0CEF9F972DCFC /* SKBatteryData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKBatteryData.h; path = SensingKit/SKBatteryData.h; sourceTree = "<group>"; };
+		131DB1F9A01D311E93C7891C58A1D379 /* SKMotionActivityConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMotionActivityConfiguration.h; path = SensingKit/SKMotionActivityConfiguration.h; sourceTree = "<group>"; };
+		1665C7C3716D5C3BA7205C3BC85068CF /* SKiBeaconProximity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKiBeaconProximity.h; path = SensingKit/SKiBeaconProximity.h; sourceTree = "<group>"; };
+		168A9B0BE717EBAAC00644350DFBDF21 /* SKSensorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKSensorManager.m; path = SensingKit/SKSensorManager.m; sourceTree = "<group>"; };
+		16ABE92066F0578F6D6E32E85B7D5019 /* SKPedometerData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPedometerData.h; path = SensingKit/SKPedometerData.h; sourceTree = "<group>"; };
+		185BB726B22C669F762A229C3AA430A0 /* SKPedometer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKPedometer.m; path = SensingKit/SKPedometer.m; sourceTree = "<group>"; };
+		185F674C33AAE9CCAE9ADB82F618ABA8 /* ESSEddystone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESSEddystone.m; path = ESSEddystone/ESSEddystone.m; sourceTree = "<group>"; };
+		186ECC62EA645255430A2B3EB7F4CAD7 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		1C54262B78D2EAC2CDC19BF5EA8FFCC9 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		21E86BCA82BBBA31FCC7FF7D8FCEB3DD /* SKSampleRateConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSampleRateConfiguration.h; path = SensingKit/SKSampleRateConfiguration.h; sourceTree = "<group>"; };
+		2711D9D079674219F4F3F1E0BB573D76 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		28DFC1DE0BDCBB66FBC5161710ED72E1 /* SKAccelerometerData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAccelerometerData.h; path = SensingKit/SKAccelerometerData.h; sourceTree = "<group>"; };
+		28E039FD7FAB50DD8B1E2D278E0098B9 /* SKGyroscopeData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKGyroscopeData.m; path = SensingKit/SKGyroscopeData.m; sourceTree = "<group>"; };
+		2ECAF8D0902A211D9693E08E0C751619 /* SKGyroscope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKGyroscope.h; path = SensingKit/SKGyroscope.h; sourceTree = "<group>"; };
+		3042A7D9E76EAF44A9E714BCC25EA589 /* SKiBeaconProximity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKiBeaconProximity.m; path = SensingKit/SKiBeaconProximity.m; sourceTree = "<group>"; };
+		31829E33118941C6B422BBCF28F61F64 /* SKAltimeterConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAltimeterConfiguration.h; path = SensingKit/SKAltimeterConfiguration.h; sourceTree = "<group>"; };
+		336DD03B710788C114D32C92480EDCB0 /* MKDropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MKDropdownMenu.framework; path = MKDropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34ECABD9B1406E3882AFAD8964E2008E /* SKMicrophoneData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMicrophoneData.h; path = SensingKit/SKMicrophoneData.h; sourceTree = "<group>"; };
+		36409ACB0139391243C9CBA34B7B4D65 /* SensingKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SensingKit.h; path = SensingKit/SensingKit.h; sourceTree = "<group>"; };
+		3836478A7216B9853A09AEDB19887D3D /* SensingKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SensingKit.modulemap; sourceTree = "<group>"; };
+		38EAB759D0E2E108F1CF54769572D1F9 /* SKMicrophone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKMicrophone.m; path = SensingKit/SKMicrophone.m; sourceTree = "<group>"; };
+		39A07455ECA94648664B131754936888 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		3FB30083F10CFE028876B4674AF15022 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		4207EDA8841778BEE4D78FFF42FF3DF0 /* SKProximityData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKProximityData.h; path = SensingKit/SKProximityData.h; sourceTree = "<group>"; };
+		42F4A0855B739C86DDD6DAD9022D332E /* SKiBeaconDeviceData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKiBeaconDeviceData.m; path = SensingKit/SKiBeaconDeviceData.m; sourceTree = "<group>"; };
+		437A61F637AE63629B1405E999BD485E /* SwiftyTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTimer.swift; path = Sources/SwiftyTimer.swift; sourceTree = "<group>"; };
+		4414424C0BA548602B4277AC2488A269 /* ESSBeaconScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESSBeaconScanner.m; path = ESSEddystone/ESSBeaconScanner.m; sourceTree = "<group>"; };
+		442FBEAC4F1E0E6055C9C148A31A483A /* SKHeadingData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKHeadingData.m; path = SensingKit/SKHeadingData.m; sourceTree = "<group>"; };
+		4A0FF1CFFFED08080A18F8EABE5D2BDC /* SKMotionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKMotionManager.m; path = SensingKit/SKMotionManager.m; sourceTree = "<group>"; };
+		4A984F833BCF8C416B7377AE3A5DF9FF /* SwiftyTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTimer.xcconfig; sourceTree = "<group>"; };
+		4E944F5B44F6C4C08B0EA4BB94AEAF71 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		5140FB1B39C3D729F47E928B5E351D59 /* ESSBeaconScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESSBeaconScanner.h; path = ESSEddystone/ESSBeaconScanner.h; sourceTree = "<group>"; };
+		5179150677FA9A57F60F9B978E6C2630 /* SKEddystoneProximity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKEddystoneProximity.h; path = SensingKit/SKEddystoneProximity.h; sourceTree = "<group>"; };
+		5189211A1FCDE8F1EA143E55D6FF1C7F /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		51969727310907C77C597767F21AF5A1 /* SKMotionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMotionManager.h; path = SensingKit/SKMotionManager.h; sourceTree = "<group>"; };
+		53425292D2D6B8BC63F3B8586F434A40 /* SKiBeaconProximityConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKiBeaconProximityConfiguration.h; path = SensingKit/SKiBeaconProximityConfiguration.h; sourceTree = "<group>"; };
+		54BA50E529BCDE3D7139403147F918EA /* MKDropdownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKDropdownMenu.xcconfig; sourceTree = "<group>"; };
+		557F428020B77D9706E7B6F2D1B8AAD2 /* SKEddystoneProximityConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKEddystoneProximityConfiguration.h; path = SensingKit/SKEddystoneProximityConfiguration.h; sourceTree = "<group>"; };
+		561B3206A7F4D61AA3886C2B39B17A1D /* SKMagnetometerData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKMagnetometerData.m; path = SensingKit/SKMagnetometerData.m; sourceTree = "<group>"; };
+		57EBD868682EC8FA77BCB76952CFA442 /* SwiftyTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTimer-umbrella.h"; sourceTree = "<group>"; };
+		5A700DDFE87DB066E6320EF57763AC56 /* SKLocationData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKLocationData.m; path = SensingKit/SKLocationData.m; sourceTree = "<group>"; };
+		5BA172508E3DD515E929AF370A5B7AED /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0C5A6BF4F784314F541124751706C0 /* Pods-ClashHacks2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClashHacks2-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D2016F18686F4DBBCAAB4F42B4BB9AB /* SKConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKConfiguration.m; path = SensingKit/SKConfiguration.m; sourceTree = "<group>"; };
+		5E461862E02703DF72415A44D7A36A2D /* Pods-ClashHacks2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClashHacks2-dummy.m"; sourceTree = "<group>"; };
+		5EA3D97F85AEEA4FB112A0F741955066 /* SKMagnetometer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKMagnetometer.m; path = SensingKit/SKMagnetometer.m; sourceTree = "<group>"; };
+		5EE0E76BBEBF02CB764373D7E1C069C9 /* SKMagnetometerConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKMagnetometerConfiguration.m; path = SensingKit/SKMagnetometerConfiguration.m; sourceTree = "<group>"; };
+		63640D88D41A46E339A0D76A94FFBCC6 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		648CB387BB1342D70222BF6793BA49F6 /* SKAltimeterConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKAltimeterConfiguration.m; path = SensingKit/SKAltimeterConfiguration.m; sourceTree = "<group>"; };
+		65520CD4A72EB7F481DD65A9E1825EFB /* Pods_ClashHacks2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ClashHacks2.framework; path = "Pods-ClashHacks2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65564466ED1E45B1929DF3F52526FD2E /* SensingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SensingKit.framework; path = SensingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6642150B120EE8C9809F52A82F1D2924 /* SKErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKErrors.h; path = SensingKit/SKErrors.h; sourceTree = "<group>"; };
+		669D758759F2326BFE11DFE6420A3673 /* ESSTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESSTimer.m; path = ESSEddystone/ESSTimer.m; sourceTree = "<group>"; };
+		68EF4E5D52679246CBC9C45786739967 /* SKSensorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSensorManager.h; path = SensingKit/SKSensorManager.h; sourceTree = "<group>"; };
+		69CADF8E37580AF9EDF3677DE4A5632D /* SKEddystoneProximityData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKEddystoneProximityData.m; path = SensingKit/SKEddystoneProximityData.m; sourceTree = "<group>"; };
+		69D76D0C5B9648D96775E53F74AD6E2F /* Pods-ClashHacks2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClashHacks2-umbrella.h"; sourceTree = "<group>"; };
+		6A1A593282D12D8A8EB247F18C1A119D /* SKSensorTimestamp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSensorTimestamp.h; path = SensingKit/SKSensorTimestamp.h; sourceTree = "<group>"; };
+		6A7171D73C0B96391D78833EFC2247AA /* SKDeviceMotionConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKDeviceMotionConfiguration.h; path = SensingKit/SKDeviceMotionConfiguration.h; sourceTree = "<group>"; };
+		6B89FDF34E757EC3283F999AD10D2655 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		6B9746C0A44D11B54A1D7F477012AC40 /* SKMicrophoneConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKMicrophoneConfiguration.m; path = SensingKit/SKMicrophoneConfiguration.m; sourceTree = "<group>"; };
+		6C53FCDE8B623542F4FD97CB491172F3 /* SKHeadingConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKHeadingConfiguration.h; path = SensingKit/SKHeadingConfiguration.h; sourceTree = "<group>"; };
+		7075D4B49BC787A7ED83EF7017E6E67F /* SKDeviceMotionData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKDeviceMotionData.m; path = SensingKit/SKDeviceMotionData.m; sourceTree = "<group>"; };
+		724D890C6967A7A10757B66495749FC8 /* SKLocationData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKLocationData.h; path = SensingKit/SKLocationData.h; sourceTree = "<group>"; };
+		739555747E98EAA6223E906F8A12D110 /* SKMotionActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKMotionActivity.m; path = SensingKit/SKMotionActivity.m; sourceTree = "<group>"; };
+		73D8224C7B8C43E3238DD416287E4931 /* SKBatteryData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKBatteryData.m; path = SensingKit/SKBatteryData.m; sourceTree = "<group>"; };
+		758DFF4F353935EDF74DD3EEED28493E /* SKLocationConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKLocationConfiguration.h; path = SensingKit/SKLocationConfiguration.h; sourceTree = "<group>"; };
+		766BC6487A547A3C65ABB6E65680DB07 /* SKAltimeterData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAltimeterData.h; path = SensingKit/SKAltimeterData.h; sourceTree = "<group>"; };
+		786B6D68DE0DEEBD7F37F674EEAC0D21 /* SensingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SensingKit-prefix.pch"; sourceTree = "<group>"; };
+		7B10342A28F9E5673E0305173F24FE71 /* Pods-ClashHacks2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClashHacks2.debug.xcconfig"; sourceTree = "<group>"; };
+		7B29C99914394201A4DC5AB407BB2439 /* SKEddystoneProximityConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKEddystoneProximityConfiguration.m; path = SensingKit/SKEddystoneProximityConfiguration.m; sourceTree = "<group>"; };
+		7C56378B35CA535E044714F1D374891D /* SKMagnetometer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMagnetometer.h; path = SensingKit/SKMagnetometer.h; sourceTree = "<group>"; };
+		7CC4B170EB798CDFB9435FE113947330 /* SKGyroscope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKGyroscope.m; path = SensingKit/SKGyroscope.m; sourceTree = "<group>"; };
+		7CE45B02D7B93596CA013616C8A989EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D91E3CFA9AE1C07976EC58082191127 /* SKDeviceMotionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKDeviceMotionData.h; path = SensingKit/SKDeviceMotionData.h; sourceTree = "<group>"; };
+		7F4FE7512B0A8B14BC683082B39B383E /* SKAccelerometer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAccelerometer.h; path = SensingKit/SKAccelerometer.h; sourceTree = "<group>"; };
+		802FEABEEA83C7868C1E1319AD67FF30 /* SKSensorData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKSensorData.m; path = SensingKit/SKSensorData.m; sourceTree = "<group>"; };
+		805CB99FFCF2A503F51B71216D8817A8 /* SKEddystoneProximityData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKEddystoneProximityData.h; path = SensingKit/SKEddystoneProximityData.h; sourceTree = "<group>"; };
+		81F55133EB08D080ECE7D16CBED29CF1 /* SKAccelerometerConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAccelerometerConfiguration.h; path = SensingKit/SKAccelerometerConfiguration.h; sourceTree = "<group>"; };
+		832D54D2D17B7D4C96733893FCE6CD55 /* MKDropdownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKDropdownMenu-umbrella.h"; sourceTree = "<group>"; };
+		83861BAC8273D36F950D01F4E7815B4E /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		8490C1F5FF23D5D82E81D265266A0A25 /* SKLocationConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKLocationConfiguration.m; path = SensingKit/SKLocationConfiguration.m; sourceTree = "<group>"; };
+		84D7FDE6E4B270419F8EED5462972BA8 /* SKiBeaconDeviceData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKiBeaconDeviceData.h; path = SensingKit/SKiBeaconDeviceData.h; sourceTree = "<group>"; };
+		84F199006EC876A13CF2FE9EA0CE8778 /* SKHeadingConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKHeadingConfiguration.m; path = SensingKit/SKHeadingConfiguration.m; sourceTree = "<group>"; };
+		8511007F9B62B7D9B51109A522E00435 /* SKHeading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKHeading.m; path = SensingKit/SKHeading.m; sourceTree = "<group>"; };
+		855F521C1D3FA768845B5CC967ACCE95 /* MKDropdownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MKDropdownMenu.modulemap; sourceTree = "<group>"; };
+		8AED4334BDEF3392AB5FEF695B6C8AC3 /* SKMotionActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMotionActivity.h; path = SensingKit/SKMotionActivity.h; sourceTree = "<group>"; };
+		8C45A8524DCE82859D65E94B5A17B51D /* SensingKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SensingKit-umbrella.h"; sourceTree = "<group>"; };
+		8E283916ADEF05E959A9718E0A5D899C /* SKAbstractSensor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAbstractSensor.h; path = SensingKit/SKAbstractSensor.h; sourceTree = "<group>"; };
+		8F009F5FE983791B74296F91CCB9AA2D /* SKPedometerConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKPedometerConfiguration.m; path = SensingKit/SKPedometerConfiguration.m; sourceTree = "<group>"; };
+		8FC516E9E8D8D123FB0CA0A310FB5D2D /* SKMagnetometerConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMagnetometerConfiguration.h; path = SensingKit/SKMagnetometerConfiguration.h; sourceTree = "<group>"; };
+		8FF8FB159FB3DDFD992F4976C6D9B60B /* SKMotionActivityConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKMotionActivityConfiguration.m; path = SensingKit/SKMotionActivityConfiguration.m; sourceTree = "<group>"; };
+		9082589F27EC099DA76E43B3B61027F1 /* SKAbstractSensor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKAbstractSensor.m; path = SensingKit/SKAbstractSensor.m; sourceTree = "<group>"; };
+		9306922382CA9DCC0F3FA6B2877E9D53 /* SKMicrophone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMicrophone.h; path = SensingKit/SKMicrophone.h; sourceTree = "<group>"; };
+		93212B6B8AC6EB00EC11E0B6D848F9A6 /* SensingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SensingKit-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9493D1CBBCB54F9A57F43631D24A0917 /* SwiftyTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTimer-prefix.pch"; sourceTree = "<group>"; };
+		95498B83E0C7B0AF2BED8DB182877F0C /* SKDeviceMotionConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKDeviceMotionConfiguration.m; path = SensingKit/SKDeviceMotionConfiguration.m; sourceTree = "<group>"; };
+		963E90D41850149F156B40B595D8A4B5 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		9A3A71A392EE8552CA887FDE6DCDD70B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A42003FFB0D70C70B2F140BA39165F9 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		9E48599BC844F1882F27DE9B2B44DC65 /* SKAltimeterData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKAltimeterData.m; path = SensingKit/SKAltimeterData.m; sourceTree = "<group>"; };
+		9F32F4F15D20C9F19BFEAE6CFEFABE89 /* SKGyroscopeData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKGyroscopeData.h; path = SensingKit/SKGyroscopeData.h; sourceTree = "<group>"; };
+		A0CD11DB59AD1F6976CE2787FA3EB52F /* Pods-ClashHacks2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClashHacks2-frameworks.sh"; sourceTree = "<group>"; };
+		A0FFA0B021090B08B4DFF750E0B29B28 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1369C256CDD4E97FDC79C47CD284551 /* SKAltimeter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAltimeter.h; path = SensingKit/SKAltimeter.h; sourceTree = "<group>"; };
+		A1CD949968C1A127D8E2D472C5289710 /* SKSensorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSensorType.h; path = SensingKit/SKSensorType.h; sourceTree = "<group>"; };
+		A30A57A7D4BEA3D7CC54057DF5F4B57E /* SKHeading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKHeading.h; path = SensingKit/SKHeading.h; sourceTree = "<group>"; };
+		A3268F3722DA0DE54BE7AF3B07371A99 /* SKDeviceMotion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKDeviceMotion.m; path = SensingKit/SKDeviceMotion.m; sourceTree = "<group>"; };
+		A32E93916D3B86E5B40C477524C9A2F4 /* SKSensorData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSensorData.h; path = SensingKit/SKSensorData.h; sourceTree = "<group>"; };
+		A4336228EF980DBEF2A90BC65A20C4F1 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		A66619786FC324AD00D69F1669430B95 /* SKBattery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKBattery.m; path = SensingKit/SKBattery.m; sourceTree = "<group>"; };
+		A758298898F044E9B8BF4FD8122EDD49 /* SKMicrophoneConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMicrophoneConfiguration.h; path = SensingKit/SKMicrophoneConfiguration.h; sourceTree = "<group>"; };
+		ABE37107EF545E5458E53B6E062B77D9 /* Pods-ClashHacks2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClashHacks2-resources.sh"; sourceTree = "<group>"; };
+		AC4CFAE6F003ED3FF9C34E8EB4B0FDD6 /* SKAccelerometer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKAccelerometer.m; path = SensingKit/SKAccelerometer.m; sourceTree = "<group>"; };
+		B7CB35B56DC3DDB61DD026A85F1EF793 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		B7D9FB0EA5039DC7B08643AEF82B684D /* SwiftyTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyTimer.modulemap; sourceTree = "<group>"; };
+		BCD95F13F16475A962BC4710226E7C9F /* SKSensorDataHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSensorDataHandler.h; path = SensingKit/SKSensorDataHandler.h; sourceTree = "<group>"; };
+		BF89C282383FA7DA7A27D23AA139394B /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		C35A4280A3A2B0A795BD0C92EC14789D /* SKConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKConfiguration.h; path = SensingKit/SKConfiguration.h; sourceTree = "<group>"; };
+		C5E1196EACFBD825E883A7ECDFD45E07 /* SKPedometerData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKPedometerData.m; path = SensingKit/SKPedometerData.m; sourceTree = "<group>"; };
+		C62631064AE4A2488494D43E6ECEDE23 /* SKProximityData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKProximityData.m; path = SensingKit/SKProximityData.m; sourceTree = "<group>"; };
+		C9AEF279C67E8EE18D57AFC442AAB644 /* SKiBeaconProximityConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKiBeaconProximityConfiguration.m; path = SensingKit/SKiBeaconProximityConfiguration.m; sourceTree = "<group>"; };
+		CA868939E655C126E9124E3A98F57946 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		D1897EF26BF958F5FBCED14C574C17FE /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		D2299B809266A5B79EB2A40E2AAC332F /* SKSampleRateConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKSampleRateConfiguration.m; path = SensingKit/SKSampleRateConfiguration.m; sourceTree = "<group>"; };
+		D4B84AF781050D923F2CE1DE7C2AD5A4 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		D55DC2BCA4DB27F93B67590B3BF3ED30 /* NSString+SensorType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SensorType.m"; path = "SensingKit/NSString+SensorType.m"; sourceTree = "<group>"; };
+		D620E59E2DFB0D4BC3273D0768EA9A8A /* SKGyroscopeConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKGyroscopeConfiguration.m; path = SensingKit/SKGyroscopeConfiguration.m; sourceTree = "<group>"; };
+		D634051FD219A71D3274FFB64E51D96E /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		D67647148BD4F6F4BDB078C990972E95 /* SKPedometerConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPedometerConfiguration.h; path = SensingKit/SKPedometerConfiguration.h; sourceTree = "<group>"; };
+		D73D4F31506ED3F5FAF413A078483D44 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		D90C345A0AE8F7FFEFDBC0D6D97D1B94 /* SensingKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SensingKit.xcconfig; sourceTree = "<group>"; };
+		DA98465E7699AF65E67FFC5FF44B6BB9 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		DCC36AB3F006E2F4DF288F583DC103D0 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		DCE34654AB3D4851691785834EC445DD /* SKBatteryConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKBatteryConfiguration.m; path = SensingKit/SKBatteryConfiguration.m; sourceTree = "<group>"; };
+		DD1E6BEE745327141E71F8F0E741E39B /* Pods-ClashHacks2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClashHacks2.release.xcconfig"; sourceTree = "<group>"; };
+		DE9EA1FF666BA973F6C824FABC15B77B /* MKDropdownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKDropdownMenu.h; path = MKDropdownMenu/MKDropdownMenu.h; sourceTree = "<group>"; };
+		E0C0591CC4DB289C952B8BCEF3071906 /* SKGyroscopeConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKGyroscopeConfiguration.h; path = SensingKit/SKGyroscopeConfiguration.h; sourceTree = "<group>"; };
+		E0E3137862FD64D9B9451E997AEA1A4E /* SKMotionActivityData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMotionActivityData.h; path = SensingKit/SKMotionActivityData.h; sourceTree = "<group>"; };
+		E0F0AE4AC58D4399704A218F770693E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3095646C74CA09315DA0197F1F6827B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		E382A218E02FD67F9C663B1B0D74765F /* SKAccelerometerData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKAccelerometerData.m; path = SensingKit/SKAccelerometerData.m; sourceTree = "<group>"; };
+		E50333CD197412BF6D16AF8B712DDD38 /* MKDropdownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKDropdownMenu-prefix.pch"; sourceTree = "<group>"; };
+		E57233186AA2CF4D63F7E9639B17DA50 /* SKLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKLocation.m; path = SensingKit/SKLocation.m; sourceTree = "<group>"; };
+		E8F0AB898FEB7C97EF8D6E706DBE923A /* SKAccelerometerConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKAccelerometerConfiguration.m; path = SensingKit/SKAccelerometerConfiguration.m; sourceTree = "<group>"; };
+		EC0C4CFCF81DAD9B727FDBD88405B4D5 /* SKBatteryConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKBatteryConfiguration.h; path = SensingKit/SKBatteryConfiguration.h; sourceTree = "<group>"; };
+		ED339DD9B4FAE75F97CEFF73F852DC48 /* SensingKitLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SensingKitLib.h; path = SensingKit/SensingKitLib.h; sourceTree = "<group>"; };
+		EDB85B890A4AFCB575BEC516373F9082 /* Pods-ClashHacks2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ClashHacks2.modulemap"; sourceTree = "<group>"; };
+		EE42034A6B3A074ACE24AF17AF6FFE73 /* Pods-ClashHacks2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClashHacks2-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF0E324ACADE776EF75260E5F366A389 /* SKPedometer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPedometer.h; path = SensingKit/SKPedometer.h; sourceTree = "<group>"; };
+		F0A5FB782CBD905FB4564C40102799ED /* SwiftyTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyTimer.framework; path = SwiftyTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0AF0B2147AA7BF57191524935B66124 /* SKMotionActivityData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKMotionActivityData.m; path = SensingKit/SKMotionActivityData.m; sourceTree = "<group>"; };
+		F11BC50F6A7E605A0FC9D0DECC277941 /* SKMicrophoneData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKMicrophoneData.m; path = SensingKit/SKMicrophoneData.m; sourceTree = "<group>"; };
+		F47B874E858810402D168F2479FAA336 /* SwiftyTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyTimer-dummy.m"; sourceTree = "<group>"; };
+		F578ABBE8D1FB86C78E7DA74D1331BC9 /* ESSTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESSTimer.h; path = ESSEddystone/ESSTimer.h; sourceTree = "<group>"; };
+		F5FE6D26FCC111132810BF58897C1593 /* SKDeviceMotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKDeviceMotion.h; path = SensingKit/SKDeviceMotion.h; sourceTree = "<group>"; };
+		F817B1F764C8757D668C225173A18156 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F86C9D77A2AE4397170FE8CCE819CD7B /* SKMagnetometerData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMagnetometerData.h; path = SensingKit/SKMagnetometerData.h; sourceTree = "<group>"; };
+		FA572A48A227065225AFC918BD4DDF9A /* SKSensorTimestamp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKSensorTimestamp.m; path = SensingKit/SKSensorTimestamp.m; sourceTree = "<group>"; };
+		FABE0D4038B860B68DB7F80BFE877ACC /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		FB09837B5E1B017C6913BC06E365EE01 /* SKEddystoneProximity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKEddystoneProximity.m; path = SensingKit/SKEddystoneProximity.m; sourceTree = "<group>"; };
+		FD343A5FF342F9DFB1A351BF87A549C4 /* SKAltimeter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKAltimeter.m; path = SensingKit/SKAltimeter.m; sourceTree = "<group>"; };
+		FDC16A7FEC04B94CD95F6D5F4D854409 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		FF48D7382B4A4ABEA22FD9E023EC57C3 /* NSString+SensorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SensorType.h"; path = "SensingKit/NSString+SensorType.h"; sourceTree = "<group>"; };
+		FFFA13E5C0840BBECCF24FE77986F5D7 /* ESSEddystone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESSEddystone.h; path = ESSEddystone/ESSEddystone.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02FE58A6EBEC542B57D8EDF0624A31EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A664DE0C0BDAC27F357A68DD79FD07CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6598EF0AC26CC5D796B830F1FA5DF09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A041380514897E98AD331DD44992DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1CF8BAA21D76A2DC8F235C12E497F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5033962E0C46F824B424D3022981D4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46AF0538076D7F4049DFD9B3AD433C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD807AEE1FB92B597982106293BB20B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0092B0D9FF89A5A9E8C06011A0AF543C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CE45B02D7B93596CA013616C8A989EA /* Info.plist */,
+				855F521C1D3FA768845B5CC967ACCE95 /* MKDropdownMenu.modulemap */,
+				54BA50E529BCDE3D7139403147F918EA /* MKDropdownMenu.xcconfig */,
+				0146C9CA7854660B142170AD2FB3BCD5 /* MKDropdownMenu-dummy.m */,
+				E50333CD197412BF6D16AF8B712DDD38 /* MKDropdownMenu-prefix.pch */,
+				832D54D2D17B7D4C96733893FCE6CD55 /* MKDropdownMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MKDropdownMenu";
+			sourceTree = "<group>";
+		};
+		0677D84BD7EDCFD2CF8C1685F1196A67 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDC16A7FEC04B94CD95F6D5F4D854409 /* Alamofire.modulemap */,
+				9A42003FFB0D70C70B2F140BA39165F9 /* Alamofire.xcconfig */,
+				A4336228EF980DBEF2A90BC65A20C4F1 /* Alamofire-dummy.m */,
+				5189211A1FCDE8F1EA143E55D6FF1C7F /* Alamofire-prefix.pch */,
+				DA98465E7699AF65E67FFC5FF44B6BB9 /* Alamofire-umbrella.h */,
+				F817B1F764C8757D668C225173A18156 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		0D0AA722F7767CD2993B4B3160C00FF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0FFA0B021090B08B4DFF750E0B29B28 /* Info.plist */,
+				3836478A7216B9853A09AEDB19887D3D /* SensingKit.modulemap */,
+				D90C345A0AE8F7FFEFDBC0D6D97D1B94 /* SensingKit.xcconfig */,
+				93212B6B8AC6EB00EC11E0B6D848F9A6 /* SensingKit-dummy.m */,
+				786B6D68DE0DEEBD7F37F674EEAC0D21 /* SensingKit-prefix.pch */,
+				8C45A8524DCE82859D65E94B5A17B51D /* SensingKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SensingKit";
+			sourceTree = "<group>";
+		};
+		0FAFAE438C0846703A2B5BF5F91E975E /* SensingKit */ = {
+			isa = PBXGroup;
+			children = (
+				5140FB1B39C3D729F47E928B5E351D59 /* ESSBeaconScanner.h */,
+				4414424C0BA548602B4277AC2488A269 /* ESSBeaconScanner.m */,
+				FFFA13E5C0840BBECCF24FE77986F5D7 /* ESSEddystone.h */,
+				185F674C33AAE9CCAE9ADB82F618ABA8 /* ESSEddystone.m */,
+				F578ABBE8D1FB86C78E7DA74D1331BC9 /* ESSTimer.h */,
+				669D758759F2326BFE11DFE6420A3673 /* ESSTimer.m */,
+				FF48D7382B4A4ABEA22FD9E023EC57C3 /* NSString+SensorType.h */,
+				D55DC2BCA4DB27F93B67590B3BF3ED30 /* NSString+SensorType.m */,
+				36409ACB0139391243C9CBA34B7B4D65 /* SensingKit.h */,
+				ED339DD9B4FAE75F97CEFF73F852DC48 /* SensingKitLib.h */,
+				005A8E47FD3D87B8935B127A1D190052 /* SensingKitLib.m */,
+				8E283916ADEF05E959A9718E0A5D899C /* SKAbstractSensor.h */,
+				9082589F27EC099DA76E43B3B61027F1 /* SKAbstractSensor.m */,
+				7F4FE7512B0A8B14BC683082B39B383E /* SKAccelerometer.h */,
+				AC4CFAE6F003ED3FF9C34E8EB4B0FDD6 /* SKAccelerometer.m */,
+				81F55133EB08D080ECE7D16CBED29CF1 /* SKAccelerometerConfiguration.h */,
+				E8F0AB898FEB7C97EF8D6E706DBE923A /* SKAccelerometerConfiguration.m */,
+				28DFC1DE0BDCBB66FBC5161710ED72E1 /* SKAccelerometerData.h */,
+				E382A218E02FD67F9C663B1B0D74765F /* SKAccelerometerData.m */,
+				A1369C256CDD4E97FDC79C47CD284551 /* SKAltimeter.h */,
+				FD343A5FF342F9DFB1A351BF87A549C4 /* SKAltimeter.m */,
+				31829E33118941C6B422BBCF28F61F64 /* SKAltimeterConfiguration.h */,
+				648CB387BB1342D70222BF6793BA49F6 /* SKAltimeterConfiguration.m */,
+				766BC6487A547A3C65ABB6E65680DB07 /* SKAltimeterData.h */,
+				9E48599BC844F1882F27DE9B2B44DC65 /* SKAltimeterData.m */,
+				0EB5BD19AB83D3E759D390C789DF5778 /* SKBattery.h */,
+				A66619786FC324AD00D69F1669430B95 /* SKBattery.m */,
+				EC0C4CFCF81DAD9B727FDBD88405B4D5 /* SKBatteryConfiguration.h */,
+				DCE34654AB3D4851691785834EC445DD /* SKBatteryConfiguration.m */,
+				101AFF8F1B7F47673FD0CEF9F972DCFC /* SKBatteryData.h */,
+				73D8224C7B8C43E3238DD416287E4931 /* SKBatteryData.m */,
+				C35A4280A3A2B0A795BD0C92EC14789D /* SKConfiguration.h */,
+				5D2016F18686F4DBBCAAB4F42B4BB9AB /* SKConfiguration.m */,
+				F5FE6D26FCC111132810BF58897C1593 /* SKDeviceMotion.h */,
+				A3268F3722DA0DE54BE7AF3B07371A99 /* SKDeviceMotion.m */,
+				6A7171D73C0B96391D78833EFC2247AA /* SKDeviceMotionConfiguration.h */,
+				95498B83E0C7B0AF2BED8DB182877F0C /* SKDeviceMotionConfiguration.m */,
+				7D91E3CFA9AE1C07976EC58082191127 /* SKDeviceMotionData.h */,
+				7075D4B49BC787A7ED83EF7017E6E67F /* SKDeviceMotionData.m */,
+				5179150677FA9A57F60F9B978E6C2630 /* SKEddystoneProximity.h */,
+				FB09837B5E1B017C6913BC06E365EE01 /* SKEddystoneProximity.m */,
+				557F428020B77D9706E7B6F2D1B8AAD2 /* SKEddystoneProximityConfiguration.h */,
+				7B29C99914394201A4DC5AB407BB2439 /* SKEddystoneProximityConfiguration.m */,
+				805CB99FFCF2A503F51B71216D8817A8 /* SKEddystoneProximityData.h */,
+				69CADF8E37580AF9EDF3677DE4A5632D /* SKEddystoneProximityData.m */,
+				6642150B120EE8C9809F52A82F1D2924 /* SKErrors.h */,
+				2ECAF8D0902A211D9693E08E0C751619 /* SKGyroscope.h */,
+				7CC4B170EB798CDFB9435FE113947330 /* SKGyroscope.m */,
+				E0C0591CC4DB289C952B8BCEF3071906 /* SKGyroscopeConfiguration.h */,
+				D620E59E2DFB0D4BC3273D0768EA9A8A /* SKGyroscopeConfiguration.m */,
+				9F32F4F15D20C9F19BFEAE6CFEFABE89 /* SKGyroscopeData.h */,
+				28E039FD7FAB50DD8B1E2D278E0098B9 /* SKGyroscopeData.m */,
+				A30A57A7D4BEA3D7CC54057DF5F4B57E /* SKHeading.h */,
+				8511007F9B62B7D9B51109A522E00435 /* SKHeading.m */,
+				6C53FCDE8B623542F4FD97CB491172F3 /* SKHeadingConfiguration.h */,
+				84F199006EC876A13CF2FE9EA0CE8778 /* SKHeadingConfiguration.m */,
+				048F15AE6A7A845916B318837CAE39EF /* SKHeadingData.h */,
+				442FBEAC4F1E0E6055C9C148A31A483A /* SKHeadingData.m */,
+				84D7FDE6E4B270419F8EED5462972BA8 /* SKiBeaconDeviceData.h */,
+				42F4A0855B739C86DDD6DAD9022D332E /* SKiBeaconDeviceData.m */,
+				1665C7C3716D5C3BA7205C3BC85068CF /* SKiBeaconProximity.h */,
+				3042A7D9E76EAF44A9E714BCC25EA589 /* SKiBeaconProximity.m */,
+				53425292D2D6B8BC63F3B8586F434A40 /* SKiBeaconProximityConfiguration.h */,
+				C9AEF279C67E8EE18D57AFC442AAB644 /* SKiBeaconProximityConfiguration.m */,
+				0E0CECC81C46B39E2EA23A1ECE4C0D4B /* SKLocation.h */,
+				E57233186AA2CF4D63F7E9639B17DA50 /* SKLocation.m */,
+				758DFF4F353935EDF74DD3EEED28493E /* SKLocationConfiguration.h */,
+				8490C1F5FF23D5D82E81D265266A0A25 /* SKLocationConfiguration.m */,
+				724D890C6967A7A10757B66495749FC8 /* SKLocationData.h */,
+				5A700DDFE87DB066E6320EF57763AC56 /* SKLocationData.m */,
+				7C56378B35CA535E044714F1D374891D /* SKMagnetometer.h */,
+				5EA3D97F85AEEA4FB112A0F741955066 /* SKMagnetometer.m */,
+				8FC516E9E8D8D123FB0CA0A310FB5D2D /* SKMagnetometerConfiguration.h */,
+				5EE0E76BBEBF02CB764373D7E1C069C9 /* SKMagnetometerConfiguration.m */,
+				F86C9D77A2AE4397170FE8CCE819CD7B /* SKMagnetometerData.h */,
+				561B3206A7F4D61AA3886C2B39B17A1D /* SKMagnetometerData.m */,
+				9306922382CA9DCC0F3FA6B2877E9D53 /* SKMicrophone.h */,
+				38EAB759D0E2E108F1CF54769572D1F9 /* SKMicrophone.m */,
+				A758298898F044E9B8BF4FD8122EDD49 /* SKMicrophoneConfiguration.h */,
+				6B9746C0A44D11B54A1D7F477012AC40 /* SKMicrophoneConfiguration.m */,
+				34ECABD9B1406E3882AFAD8964E2008E /* SKMicrophoneData.h */,
+				F11BC50F6A7E605A0FC9D0DECC277941 /* SKMicrophoneData.m */,
+				8AED4334BDEF3392AB5FEF695B6C8AC3 /* SKMotionActivity.h */,
+				739555747E98EAA6223E906F8A12D110 /* SKMotionActivity.m */,
+				131DB1F9A01D311E93C7891C58A1D379 /* SKMotionActivityConfiguration.h */,
+				8FF8FB159FB3DDFD992F4976C6D9B60B /* SKMotionActivityConfiguration.m */,
+				E0E3137862FD64D9B9451E997AEA1A4E /* SKMotionActivityData.h */,
+				F0AF0B2147AA7BF57191524935B66124 /* SKMotionActivityData.m */,
+				51969727310907C77C597767F21AF5A1 /* SKMotionManager.h */,
+				4A0FF1CFFFED08080A18F8EABE5D2BDC /* SKMotionManager.m */,
+				EF0E324ACADE776EF75260E5F366A389 /* SKPedometer.h */,
+				185BB726B22C669F762A229C3AA430A0 /* SKPedometer.m */,
+				D67647148BD4F6F4BDB078C990972E95 /* SKPedometerConfiguration.h */,
+				8F009F5FE983791B74296F91CCB9AA2D /* SKPedometerConfiguration.m */,
+				16ABE92066F0578F6D6E32E85B7D5019 /* SKPedometerData.h */,
+				C5E1196EACFBD825E883A7ECDFD45E07 /* SKPedometerData.m */,
+				4207EDA8841778BEE4D78FFF42FF3DF0 /* SKProximityData.h */,
+				C62631064AE4A2488494D43E6ECEDE23 /* SKProximityData.m */,
+				21E86BCA82BBBA31FCC7FF7D8FCEB3DD /* SKSampleRateConfiguration.h */,
+				D2299B809266A5B79EB2A40E2AAC332F /* SKSampleRateConfiguration.m */,
+				A32E93916D3B86E5B40C477524C9A2F4 /* SKSensorData.h */,
+				802FEABEEA83C7868C1E1319AD67FF30 /* SKSensorData.m */,
+				BCD95F13F16475A962BC4710226E7C9F /* SKSensorDataHandler.h */,
+				68EF4E5D52679246CBC9C45786739967 /* SKSensorManager.h */,
+				168A9B0BE717EBAAC00644350DFBDF21 /* SKSensorManager.m */,
+				6A1A593282D12D8A8EB247F18C1A119D /* SKSensorTimestamp.h */,
+				FA572A48A227065225AFC918BD4DDF9A /* SKSensorTimestamp.m */,
+				A1CD949968C1A127D8E2D472C5289710 /* SKSensorType.h */,
+				0D0AA722F7767CD2993B4B3160C00FF8 /* Support Files */,
+			);
+			name = SensingKit;
+			path = SensingKit;
+			sourceTree = "<group>";
+		};
+		11DE05B65C09192EDBE4F0A04C2C4784 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				83861BAC8273D36F950D01F4E7815B4E /* AFError.swift */,
+				186ECC62EA645255430A2B3EB7F4CAD7 /* Alamofire.swift */,
+				DCC36AB3F006E2F4DF288F583DC103D0 /* DispatchQueue+Alamofire.swift */,
+				D634051FD219A71D3274FFB64E51D96E /* MultipartFormData.swift */,
+				39A07455ECA94648664B131754936888 /* NetworkReachabilityManager.swift */,
+				CA868939E655C126E9124E3A98F57946 /* Notifications.swift */,
+				FABE0D4038B860B68DB7F80BFE877ACC /* ParameterEncoding.swift */,
+				B7CB35B56DC3DDB61DD026A85F1EF793 /* Request.swift */,
+				D73D4F31506ED3F5FAF413A078483D44 /* Response.swift */,
+				4E944F5B44F6C4C08B0EA4BB94AEAF71 /* ResponseSerialization.swift */,
+				963E90D41850149F156B40B595D8A4B5 /* Result.swift */,
+				D1897EF26BF958F5FBCED14C574C17FE /* ServerTrustPolicy.swift */,
+				1C54262B78D2EAC2CDC19BF5EA8FFCC9 /* SessionDelegate.swift */,
+				E3095646C74CA09315DA0197F1F6827B /* SessionManager.swift */,
+				2711D9D079674219F4F3F1E0BB573D76 /* TaskDelegate.swift */,
+				02276A9190E035CE56F8AE928EBF27A5 /* Timeline.swift */,
+				D4B84AF781050D923F2CE1DE7C2AD5A4 /* Validation.swift */,
+				0677D84BD7EDCFD2CF8C1685F1196A67 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		5123DC0060EC7C7A6E8529EA99FD6C04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11DE05B65C09192EDBE4F0A04C2C4784 /* Alamofire */,
+				C20C58FB57288B998B6FF037CB823A83 /* GoogleMaps */,
+				798CAABFE3E32C0FEBEADAA8BDE45A28 /* MKDropdownMenu */,
+				0FAFAE438C0846703A2B5BF5F91E975E /* SensingKit */,
+				6C94CF35AED7BBD3E8DB03B7AAC0A265 /* SwiftyTimer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B07A2BD4CF4E0788985911058D33893 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63640D88D41A46E339A0D76A94FFBCC6 /* GoogleMaps.framework */,
+				6B89FDF34E757EC3283F999AD10D2655 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C94CF35AED7BBD3E8DB03B7AAC0A265 /* SwiftyTimer */ = {
+			isa = PBXGroup;
+			children = (
+				437A61F637AE63629B1405E999BD485E /* SwiftyTimer.swift */,
+				803EF02DCD428FFA45C80ACE351A91F5 /* Support Files */,
+			);
+			name = SwiftyTimer;
+			path = SwiftyTimer;
+			sourceTree = "<group>";
+		};
+		798CAABFE3E32C0FEBEADAA8BDE45A28 /* MKDropdownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DE9EA1FF666BA973F6C824FABC15B77B /* MKDropdownMenu.h */,
+				08719FEC9796654846613DC6519DDB0C /* MKDropdownMenu.m */,
+				0092B0D9FF89A5A9E8C06011A0AF543C /* Support Files */,
+			);
+			name = MKDropdownMenu;
+			path = MKDropdownMenu;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5123DC0060EC7C7A6E8529EA99FD6C04 /* Pods */,
+				DDC9275A9A83C5F9FD4A0180551CB9F3 /* Products */,
+				EC587889515A02F9812C8B3C751A44AC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		803EF02DCD428FFA45C80ACE351A91F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A71A392EE8552CA887FDE6DCDD70B /* Info.plist */,
+				B7D9FB0EA5039DC7B08643AEF82B684D /* SwiftyTimer.modulemap */,
+				4A984F833BCF8C416B7377AE3A5DF9FF /* SwiftyTimer.xcconfig */,
+				F47B874E858810402D168F2479FAA336 /* SwiftyTimer-dummy.m */,
+				9493D1CBBCB54F9A57F43631D24A0917 /* SwiftyTimer-prefix.pch */,
+				57EBD868682EC8FA77BCB76952CFA442 /* SwiftyTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyTimer";
+			sourceTree = "<group>";
+		};
+		872595208380A71D3BCF18B3D746EFC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF89C282383FA7DA7A27D23AA139394B /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		97C19AF859213046418053914C22EC76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FB30083F10CFE028876B4674AF15022 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A90A563D7262BF905ABB8011F18FFC44 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				5B07A2BD4CF4E0788985911058D33893 /* Frameworks */,
+				872595208380A71D3BCF18B3D746EFC9 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C20C58FB57288B998B6FF037CB823A83 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				E72E7F4597F138AE1CC1C7A98888A12D /* Base */,
+				A90A563D7262BF905ABB8011F18FFC44 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DDC9275A9A83C5F9FD4A0180551CB9F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA172508E3DD515E929AF370A5B7AED /* Alamofire.framework */,
+				336DD03B710788C114D32C92480EDCB0 /* MKDropdownMenu.framework */,
+				65520CD4A72EB7F481DD65A9E1825EFB /* Pods_ClashHacks2.framework */,
+				65564466ED1E45B1929DF3F52526FD2E /* SensingKit.framework */,
+				F0A5FB782CBD905FB4564C40102799ED /* SwiftyTimer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E72E7F4597F138AE1CC1C7A98888A12D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				97C19AF859213046418053914C22EC76 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		EC587889515A02F9812C8B3C751A44AC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB1B89B2E972CCCEDB1EE104B3E0406E /* Pods-ClashHacks2 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FB1B89B2E972CCCEDB1EE104B3E0406E /* Pods-ClashHacks2 */ = {
+			isa = PBXGroup;
+			children = (
+				E0F0AE4AC58D4399704A218F770693E0 /* Info.plist */,
+				EDB85B890A4AFCB575BEC516373F9082 /* Pods-ClashHacks2.modulemap */,
+				EE42034A6B3A074ACE24AF17AF6FFE73 /* Pods-ClashHacks2-acknowledgements.markdown */,
+				5D0C5A6BF4F784314F541124751706C0 /* Pods-ClashHacks2-acknowledgements.plist */,
+				5E461862E02703DF72415A44D7A36A2D /* Pods-ClashHacks2-dummy.m */,
+				A0CD11DB59AD1F6976CE2787FA3EB52F /* Pods-ClashHacks2-frameworks.sh */,
+				ABE37107EF545E5458E53B6E062B77D9 /* Pods-ClashHacks2-resources.sh */,
+				69D76D0C5B9648D96775E53F74AD6E2F /* Pods-ClashHacks2-umbrella.h */,
+				7B10342A28F9E5673E0305173F24FE71 /* Pods-ClashHacks2.debug.xcconfig */,
+				DD1E6BEE745327141E71F8F0E741E39B /* Pods-ClashHacks2.release.xcconfig */,
+			);
+			name = "Pods-ClashHacks2";
+			path = "Target Support Files/Pods-ClashHacks2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		057FAC21C2F02FE6D148BA8D42AE33B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358A5C2761AED960D66484D69F306510 /* Pods-ClashHacks2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF91E0B745FCEEB1DFB6D794C30CEC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C13B06E051BD6A51F3BC9929D8DC6E /* MKDropdownMenu-umbrella.h in Headers */,
+				407440C5216AD13499D01DC3B72860CC /* MKDropdownMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA2791BDCE57C1FE6284D2155E7C7BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ABB8E4FFC24C40313F33EC7B98A3B24 /* ESSBeaconScanner.h in Headers */,
+				0E4444A53ACDA1D432D45210BB73BFBB /* ESSEddystone.h in Headers */,
+				C1C65DB7EAD86B59183DDA45A02C8763 /* ESSTimer.h in Headers */,
+				DED0B7E479955E2BA6AF7EA9E13082E0 /* NSString+SensorType.h in Headers */,
+				FC04A2595AF0F639240DA9B0186755F6 /* SensingKit-umbrella.h in Headers */,
+				F93C03C54B17DD213546781D119C4900 /* SensingKit.h in Headers */,
+				EF7B515774069E8966541BBD52D88F2B /* SensingKitLib.h in Headers */,
+				A3B8B04D15A729EF757A2599EB56FCDE /* SKAbstractSensor.h in Headers */,
+				6E19C4C6B4E790F16F10C8DD40E96C2E /* SKAccelerometer.h in Headers */,
+				D45EE6A0F08B977E6F1937BB96BDB88A /* SKAccelerometerConfiguration.h in Headers */,
+				6EB60CC98A0ED7719ACE873B42766864 /* SKAccelerometerData.h in Headers */,
+				571AC84A11AFBA27062318288C42B51E /* SKAltimeter.h in Headers */,
+				0D69EB22CB866D1C4D1327C1DE23A452 /* SKAltimeterConfiguration.h in Headers */,
+				3469C38179F2E66DC0B88DF2D3E0FCEB /* SKAltimeterData.h in Headers */,
+				A594831CDCB5EEC4AA8BAC195705C9E6 /* SKBattery.h in Headers */,
+				8B85D500EDB0AD3163B87B3DE7857DDB /* SKBatteryConfiguration.h in Headers */,
+				C8F45993164ABAC927F31A0EED64E39E /* SKBatteryData.h in Headers */,
+				5D65C1A1252932C23C1134B2D3A230A7 /* SKConfiguration.h in Headers */,
+				4A1BFA3466443A3449E4B0019607501F /* SKDeviceMotion.h in Headers */,
+				304CBC297C4CE8EED7DB08DB27BE9867 /* SKDeviceMotionConfiguration.h in Headers */,
+				D81FC2C4D0347B36D4F3077B44E1D155 /* SKDeviceMotionData.h in Headers */,
+				5A4D339CD38A7F55407A907A29AA2DFC /* SKEddystoneProximity.h in Headers */,
+				8973E4F39D9AB43F987A078312828274 /* SKEddystoneProximityConfiguration.h in Headers */,
+				40B3AFE9301821271B40ED93382B8358 /* SKEddystoneProximityData.h in Headers */,
+				78F3DA702E8FC4559A6FFECED70721FA /* SKErrors.h in Headers */,
+				38EBAF3BBBB24793EB5777DE7930D561 /* SKGyroscope.h in Headers */,
+				087DC0C1111EA2B24DEA30DE8E206B6C /* SKGyroscopeConfiguration.h in Headers */,
+				A147E94117737CD9DE2DD27C46E666FB /* SKGyroscopeData.h in Headers */,
+				E236EF15A87306E1D388608804163AD1 /* SKHeading.h in Headers */,
+				B7BCA7CDABCE4DCB23A040C9AD5CDE2E /* SKHeadingConfiguration.h in Headers */,
+				395FC86ABA3C572519B297FDB2D83E3F /* SKHeadingData.h in Headers */,
+				92DC60968FBAA5D623E789E63D22E450 /* SKiBeaconDeviceData.h in Headers */,
+				A74A1DAEC44D5ACC82A5E457B738DF6A /* SKiBeaconProximity.h in Headers */,
+				FB0361A68ACB86F4F7BD691EF3E7AB18 /* SKiBeaconProximityConfiguration.h in Headers */,
+				850F9256C4EB289588FDB84EEA90B688 /* SKLocation.h in Headers */,
+				3C499E41E275CE7F498C1BC943F5BA1E /* SKLocationConfiguration.h in Headers */,
+				4EAEA680F3C437676E2A3CA83D592B7F /* SKLocationData.h in Headers */,
+				53E39641466692DEFCA88AFD7A33D3C2 /* SKMagnetometer.h in Headers */,
+				BB31B147CA5CB132D648D03DACC3EE9F /* SKMagnetometerConfiguration.h in Headers */,
+				098AE00855317E95C80BB27FDD0F2FA4 /* SKMagnetometerData.h in Headers */,
+				BDDC7FB5190ECCA9497F57ABF55BCA45 /* SKMicrophone.h in Headers */,
+				801BC3D0AAC925C5814249BF30D7BEFB /* SKMicrophoneConfiguration.h in Headers */,
+				68B99C77A9D383C89604BA85603D1D9A /* SKMicrophoneData.h in Headers */,
+				FAF4EB9BBA7362C9B568BA59E5D07836 /* SKMotionActivity.h in Headers */,
+				7538437E110177FEDB65019422472F8E /* SKMotionActivityConfiguration.h in Headers */,
+				88003757E0ACC7FF0A15FFDF9FE7BF03 /* SKMotionActivityData.h in Headers */,
+				D8A7806D342AD58D8EBDA73422248E54 /* SKMotionManager.h in Headers */,
+				22817EB123E6774D86A67F1847E393F1 /* SKPedometer.h in Headers */,
+				B16F51E789EF7146B6119888E5997269 /* SKPedometerConfiguration.h in Headers */,
+				FF56EE4CEC572EA7319DC641C18CF933 /* SKPedometerData.h in Headers */,
+				EF80EFBDF110DC93AA9DF0597A458638 /* SKProximityData.h in Headers */,
+				A0281B9CC84246CA3979AE4342D87ABB /* SKSampleRateConfiguration.h in Headers */,
+				67AB31A6C4EBE4220DC4963516A423C2 /* SKSensorData.h in Headers */,
+				E33D666264811F21C78C13A8C3384D05 /* SKSensorDataHandler.h in Headers */,
+				3D6453FE90C3D3BEAED360554C479AB3 /* SKSensorManager.h in Headers */,
+				FBBB3ED57BA6666E7A5F6100E3817738 /* SKSensorTimestamp.h in Headers */,
+				F1E143288493EBCED78EC806D0726BDD /* SKSensorType.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EA0FBF20FB736B739E0F3F36B4C67F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DFAAF1B23298E00EB4F915DA789472 /* SwiftyTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23E3022C480A119433C2C13D19697E61 /* SwiftyTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9C99D146424285CAE22EE6496DD802 /* Build configuration list for PBXNativeTarget "SwiftyTimer" */;
+			buildPhases = (
+				38A40362BDB0E0496471BB71B1F6C326 /* Sources */,
+				6598EF0AC26CC5D796B830F1FA5DF09F /* Frameworks */,
+				F2EA0FBF20FB736B739E0F3F36B4C67F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyTimer;
+			productName = SwiftyTimer;
+			productReference = F0A5FB782CBD905FB4564C40102799ED /* SwiftyTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		26F72F0CA5FE48CD91D281ED2F3E4DB3 /* Pods-ClashHacks2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68CA0511094085A66B90FDEED72C658 /* Build configuration list for PBXNativeTarget "Pods-ClashHacks2" */;
+			buildPhases = (
+				9A1C2A06C45C09DF81579C6B5ACAF3D4 /* Sources */,
+				02FE58A6EBEC542B57D8EDF0624A31EC /* Frameworks */,
+				057FAC21C2F02FE6D148BA8D42AE33B2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1E64963DD468FAC5C1D9A2BA1F099F1 /* PBXTargetDependency */,
+				B257413890035C5E95A133BC6F1A519D /* PBXTargetDependency */,
+				4B444ABA65EE5526C9378EBD68B3C614 /* PBXTargetDependency */,
+				4CCE09AB2DB5792F858050DA064A8346 /* PBXTargetDependency */,
+			);
+			name = "Pods-ClashHacks2";
+			productName = "Pods-ClashHacks2";
+			productReference = 65520CD4A72EB7F481DD65A9E1825EFB /* Pods_ClashHacks2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5BA172508E3DD515E929AF370A5B7AED /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D877AA9F31735BDEC356927A7B4BF18B /* SensingKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1413ED7386C3D79D91EB3E6C01BAC4D /* Build configuration list for PBXNativeTarget "SensingKit" */;
+			buildPhases = (
+				35152878E05FB9A655B90DBE69A6A536 /* Sources */,
+				E46AF0538076D7F4049DFD9B3AD433C7 /* Frameworks */,
+				7CA2791BDCE57C1FE6284D2155E7C7BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SensingKit;
+			productName = SensingKit;
+			productReference = 65564466ED1E45B1929DF3F52526FD2E /* SensingKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5998E20F683EE1E9022DCED6FFD564C /* MKDropdownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A30A1B4B5C64B7177D21E129C72A9D7 /* Build configuration list for PBXNativeTarget "MKDropdownMenu" */;
+			buildPhases = (
+				2980F948F583F647BF072A91D49931B4 /* Sources */,
+				8A1CF8BAA21D76A2DC8F235C12E497F3 /* Frameworks */,
+				5CF91E0B745FCEEB1DFB6D794C30CEC0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKDropdownMenu;
+			productName = MKDropdownMenu;
+			productReference = 336DD03B710788C114D32C92480EDCB0 /* MKDropdownMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DDC9275A9A83C5F9FD4A0180551CB9F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				F5998E20F683EE1E9022DCED6FFD564C /* MKDropdownMenu */,
+				26F72F0CA5FE48CD91D281ED2F3E4DB3 /* Pods-ClashHacks2 */,
+				D877AA9F31735BDEC356927A7B4BF18B /* SensingKit */,
+				23E3022C480A119433C2C13D19697E61 /* SwiftyTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2980F948F583F647BF072A91D49931B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7812DA0B4C540CCAB4EE841638913E /* MKDropdownMenu-dummy.m in Sources */,
+				4B928BA447B8EF57B570E4926DABD652 /* MKDropdownMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35152878E05FB9A655B90DBE69A6A536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E3875C0B5E612ADD85640838594D99 /* ESSBeaconScanner.m in Sources */,
+				6F62B72FB0A5C3DCDFA5A33DBBBF32EC /* ESSEddystone.m in Sources */,
+				78010A27EEBBE2179669848ECAEA2EA9 /* ESSTimer.m in Sources */,
+				C62EB2F16024DD402906E9303A2C3BDD /* NSString+SensorType.m in Sources */,
+				1C29E257AE4D3DEA6A42A72E26517B19 /* SensingKit-dummy.m in Sources */,
+				F767DAABB8DD9782AA61EFBA334959CF /* SensingKitLib.m in Sources */,
+				67B71F2508FC424EA20BB6FED67C13D9 /* SKAbstractSensor.m in Sources */,
+				CB828451E34F6F9059E8CC256F083E8C /* SKAccelerometer.m in Sources */,
+				A53EB29B8C920AE02003B9BA62F68C4F /* SKAccelerometerConfiguration.m in Sources */,
+				2F39480EDCC230ECEF534BF04A400D88 /* SKAccelerometerData.m in Sources */,
+				A48B00267909966375F14E35A5279598 /* SKAltimeter.m in Sources */,
+				30FB247F3172F2B4059489AFF8F6740B /* SKAltimeterConfiguration.m in Sources */,
+				8D1727A6A59F122B24D30C052347092C /* SKAltimeterData.m in Sources */,
+				217F3CE528844B9A83D5AD5B6E9D44B8 /* SKBattery.m in Sources */,
+				957E99301C90EFEA939F953D59BDDE14 /* SKBatteryConfiguration.m in Sources */,
+				6AE914849AE2769BCD0C432A408709C5 /* SKBatteryData.m in Sources */,
+				9988CD10D58F08CD9ABE86DBF2E0EA8D /* SKConfiguration.m in Sources */,
+				A0887D0927DC868D11E3A4C74872BCBD /* SKDeviceMotion.m in Sources */,
+				2B25AF64C8EE41E49C45E8B44C381326 /* SKDeviceMotionConfiguration.m in Sources */,
+				2CC7FE55D904E9B2317A22D408AFBACB /* SKDeviceMotionData.m in Sources */,
+				DEBC245A21C835A11FE3C4B472EEB589 /* SKEddystoneProximity.m in Sources */,
+				6FBA7E2E414B9A228D1955EBC06C776C /* SKEddystoneProximityConfiguration.m in Sources */,
+				44AD71509ECD24660BDC696C7E761780 /* SKEddystoneProximityData.m in Sources */,
+				5E59D796E5D70603B653979B2448247B /* SKGyroscope.m in Sources */,
+				9DD267B72AB9B6B1DB6DF801C8D92B90 /* SKGyroscopeConfiguration.m in Sources */,
+				69EC0E96321F7D57C372BF2BAEAB32FE /* SKGyroscopeData.m in Sources */,
+				D738CDF057340AA990A1A439E87C2BDB /* SKHeading.m in Sources */,
+				4BA9D9D3B896107A9C0C02A08C46C917 /* SKHeadingConfiguration.m in Sources */,
+				4EE3C8C7D8EE1C80A59303C21FBBCF95 /* SKHeadingData.m in Sources */,
+				4044FAABBD01349893CFB1B59C755748 /* SKiBeaconDeviceData.m in Sources */,
+				1BEA242A8B108DDF2843D4E2218B7A06 /* SKiBeaconProximity.m in Sources */,
+				2025DF7200DFAB486180003E5BBAAAF4 /* SKiBeaconProximityConfiguration.m in Sources */,
+				E4FE6333B41C1DBEE478458AC4D2EDCE /* SKLocation.m in Sources */,
+				AB60863099BE14D356BEA32373DB66F8 /* SKLocationConfiguration.m in Sources */,
+				1150EFED23F077F452D91D12F50A17E5 /* SKLocationData.m in Sources */,
+				F133FABC04E50157D5A1EC0471357411 /* SKMagnetometer.m in Sources */,
+				97017666CF5C88976ACB93CA2A7AC989 /* SKMagnetometerConfiguration.m in Sources */,
+				F2815C1F50D36A25A838DFF78E07DAE9 /* SKMagnetometerData.m in Sources */,
+				EBD697E5F697A857890AF81E9764F080 /* SKMicrophone.m in Sources */,
+				5402747472B51F29722B13265491E58B /* SKMicrophoneConfiguration.m in Sources */,
+				BBB652CC259A77EFF4C0C88649D2F42E /* SKMicrophoneData.m in Sources */,
+				5AF0139984B273CC49727B771C14549F /* SKMotionActivity.m in Sources */,
+				78F26436EAB92100A287CADC6F96A176 /* SKMotionActivityConfiguration.m in Sources */,
+				1A7FDF8D97DE059C72390561C54640A3 /* SKMotionActivityData.m in Sources */,
+				FD9FDA715AEBD5A1B83C38EF1434FD62 /* SKMotionManager.m in Sources */,
+				6749EDA7595AE4AB6354783C149F32C0 /* SKPedometer.m in Sources */,
+				C2E54CCAB759029C338B0099F6FC9A20 /* SKPedometerConfiguration.m in Sources */,
+				6C55B6882B84F94D1013E09ED48A3805 /* SKPedometerData.m in Sources */,
+				3993DDBEADEB5CE33634BE827794521D /* SKProximityData.m in Sources */,
+				E31AC0F8059A4A185EF2EA8844A6973C /* SKSampleRateConfiguration.m in Sources */,
+				FA8B7C01A2CD406DDA284D0C63994879 /* SKSensorData.m in Sources */,
+				B33D01E705A95A6933636BBB7961F87B /* SKSensorManager.m in Sources */,
+				A200E1FEE5EC69C5E113F1A56A2D534F /* SKSensorTimestamp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A40362BDB0E0496471BB71B1F6C326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8075F2A2BC53D79CFD84FC100AF2684 /* SwiftyTimer-dummy.m in Sources */,
+				FAC91B5C85857E0FC532DF932DC4D17C /* SwiftyTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A1C2A06C45C09DF81579C6B5ACAF3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4074E3D41C90BD182E60ABF674589F50 /* Pods-ClashHacks2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B444ABA65EE5526C9378EBD68B3C614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SensingKit;
+			target = D877AA9F31735BDEC356927A7B4BF18B /* SensingKit */;
+			targetProxy = 518C8D38246F963E7B2A05C55F2CCC30 /* PBXContainerItemProxy */;
+		};
+		4CCE09AB2DB5792F858050DA064A8346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyTimer;
+			target = 23E3022C480A119433C2C13D19697E61 /* SwiftyTimer */;
+			targetProxy = 93C4CBB3B18734A34281786925DE2954 /* PBXContainerItemProxy */;
+		};
+		B1E64963DD468FAC5C1D9A2BA1F099F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = F7F7B5F403F27ACB9F55EDB2C85DC8FB /* PBXContainerItemProxy */;
+		};
+		B257413890035C5E95A133BC6F1A519D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MKDropdownMenu;
+			target = F5998E20F683EE1E9022DCED6FFD564C /* MKDropdownMenu */;
+			targetProxy = 9C9EA3B3EDA28D66EEB53484D8E5920C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		24065ED9902A6D5E87D69DC43E30FCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90C345A0AE8F7FFEFDBC0D6D97D1B94 /* SensingKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SensingKit/SensingKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SensingKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SensingKit/SensingKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SensingKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2711FF72089415D2245E1D70A3D7A8AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54BA50E529BCDE3D7139403147F918EA /* MKDropdownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MKDropdownMenu/MKDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKDropdownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKDropdownMenu/MKDropdownMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MKDropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45011E0A60E1B1384FCAD4C699863512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90C345A0AE8F7FFEFDBC0D6D97D1B94 /* SensingKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SensingKit/SensingKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SensingKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SensingKit/SensingKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SensingKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D072D0D174F12EAACC1862DA756E67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A42003FFB0D70C70B2F140BA39165F9 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A12E57AD637A66E6CCFB67166010DE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B10342A28F9E5673E0305173F24FE71 /* Pods-ClashHacks2.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ClashHacks2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClashHacks2/Pods-ClashHacks2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ClashHacks2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6C92F690DED2D061AF9A174E1D92508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A984F833BCF8C416B7377AE3A5DF9FF /* SwiftyTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTimer/SwiftyTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyTimer/SwiftyTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9660A42FEDD040185578ADA021EC8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A42003FFB0D70C70B2F140BA39165F9 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA7666B4F6306D0CA7F5958FAFF18FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54BA50E529BCDE3D7139403147F918EA /* MKDropdownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MKDropdownMenu/MKDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKDropdownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKDropdownMenu/MKDropdownMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MKDropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD0C613092FD4C6ABCA75B8C8CF3350E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD1E6BEE745327141E71F8F0E741E39B /* Pods-ClashHacks2.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ClashHacks2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClashHacks2/Pods-ClashHacks2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ClashHacks2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD650FA1ADB90BD442107641FC1E3EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A984F833BCF8C416B7377AE3A5DF9FF /* SwiftyTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTimer/SwiftyTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyTimer/SwiftyTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9660A42FEDD040185578ADA021EC8E0 /* Debug */,
+				7D072D0D174F12EAACC1862DA756E67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A30A1B4B5C64B7177D21E129C72A9D7 /* Build configuration list for PBXNativeTarget "MKDropdownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7666B4F6306D0CA7F5958FAFF18FE1 /* Debug */,
+				2711FF72089415D2245E1D70A3D7A8AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9C99D146424285CAE22EE6496DD802 /* Build configuration list for PBXNativeTarget "SwiftyTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD650FA1ADB90BD442107641FC1E3EBA /* Debug */,
+				B6C92F690DED2D061AF9A174E1D92508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1413ED7386C3D79D91EB3E6C01BAC4D /* Build configuration list for PBXNativeTarget "SensingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45011E0A60E1B1384FCAD4C699863512 /* Debug */,
+				24065ED9902A6D5E87D69DC43E30FCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68CA0511094085A66B90FDEED72C658 /* Build configuration list for PBXNativeTarget "Pods-ClashHacks2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12E57AD637A66E6CCFB67166010DE7C /* Debug */,
+				DD0C613092FD4C6ABCA75B8C8CF3350E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

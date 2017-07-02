@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5750E09966DA5C4ED75472E2 /* Pods_ClashHacks2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3142F5BA89F9B93F96CBA0 /* Pods_ClashHacks2.framework */; };
 		6BF7F22F1F087CAB0055BBE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF7F22E1F087CAB0055BBE1 /* AppDelegate.swift */; };
 		6BF7F2311F087CAB0055BBE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF7F2301F087CAB0055BBE1 /* ViewController.swift */; };
 		6BF7F2341F087CAB0055BBE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF7F2321F087CAB0055BBE1 /* Main.storyboard */; };
 		6BF7F2371F087CAB0055BBE1 /* ClashHacks2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BF7F2351F087CAB0055BBE1 /* ClashHacks2.xcdatamodeld */; };
 		6BF7F2391F087CAB0055BBE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF7F2381F087CAB0055BBE1 /* Assets.xcassets */; };
 		6BF7F23C1F087CAB0055BBE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF7F23A1F087CAB0055BBE1 /* LaunchScreen.storyboard */; };
+		6BF7F2441F088FE10055BBE1 /* FireFighterInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF7F2431F088FE10055BBE1 /* FireFighterInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10525187133D9EC2B7226655 /* Pods-ClashHacks2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClashHacks2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClashHacks2/Pods-ClashHacks2.debug.xcconfig"; sourceTree = "<group>"; };
+		2B3142F5BA89F9B93F96CBA0 /* Pods_ClashHacks2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClashHacks2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF7F22B1F087CAB0055BBE1 /* ClashHacks2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClashHacks2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF7F22E1F087CAB0055BBE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BF7F2301F087CAB0055BBE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		6BF7F2381F087CAB0055BBE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BF7F23B1F087CAB0055BBE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BF7F23D1F087CAB0055BBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF7F2431F088FE10055BBE1 /* FireFighterInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireFighterInfoViewController.swift; sourceTree = "<group>"; };
+		E8D156D56E0399B9F4BBACC2 /* Pods-ClashHacks2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClashHacks2.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClashHacks2/Pods-ClashHacks2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5750E09966DA5C4ED75472E2 /* Pods_ClashHacks2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14D906BF82C1623892D07860 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10525187133D9EC2B7226655 /* Pods-ClashHacks2.debug.xcconfig */,
+				E8D156D56E0399B9F4BBACC2 /* Pods-ClashHacks2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3BBABCFFC68A7C21E1EFE75C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B3142F5BA89F9B93F96CBA0 /* Pods_ClashHacks2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6BF7F2221F087CAB0055BBE1 = {
 			isa = PBXGroup;
 			children = (
 				6BF7F22D1F087CAB0055BBE1 /* ClashHacks2 */,
 				6BF7F22C1F087CAB0055BBE1 /* Products */,
+				14D906BF82C1623892D07860 /* Pods */,
+				3BBABCFFC68A7C21E1EFE75C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +89,7 @@
 				6BF7F23A1F087CAB0055BBE1 /* LaunchScreen.storyboard */,
 				6BF7F23D1F087CAB0055BBE1 /* Info.plist */,
 				6BF7F2351F087CAB0055BBE1 /* ClashHacks2.xcdatamodeld */,
+				6BF7F2431F088FE10055BBE1 /* FireFighterInfoViewController.swift */,
 			);
 			path = ClashHacks2;
 			sourceTree = "<group>";
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BF7F2401F087CAB0055BBE1 /* Build configuration list for PBXNativeTarget "ClashHacks2" */;
 			buildPhases = (
+				5B46E3B51E6C53C538A4A249 /* [CP] Check Pods Manifest.lock */,
 				6BF7F2271F087CAB0055BBE1 /* Sources */,
 				6BF7F2281F087CAB0055BBE1 /* Frameworks */,
 				6BF7F2291F087CAB0055BBE1 /* Resources */,
+				37917BECD66332FE4869F46A /* [CP] Embed Pods Frameworks */,
+				A0C5C9E5DCD0BF93231154B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,11 +165,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37917BECD66332FE4869F46A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClashHacks2/Pods-ClashHacks2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B46E3B51E6C53C538A4A249 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C5C9E5DCD0BF93231154B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClashHacks2/Pods-ClashHacks2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6BF7F2271F087CAB0055BBE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BF7F2441F088FE10055BBE1 /* FireFighterInfoViewController.swift in Sources */,
 				6BF7F2371F087CAB0055BBE1 /* ClashHacks2.xcdatamodeld in Sources */,
 				6BF7F2311F087CAB0055BBE1 /* ViewController.swift in Sources */,
 				6BF7F22F1F087CAB0055BBE1 /* AppDelegate.swift in Sources */,
@@ -265,6 +344,7 @@
 		};
 		6BF7F2411F087CAB0055BBE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10525187133D9EC2B7226655 /* Pods-ClashHacks2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VG36S3M9UZ;
@@ -278,6 +358,7 @@
 		};
 		6BF7F2421F087CAB0055BBE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D156D56E0399B9F4BBACC2 /* Pods-ClashHacks2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VG36S3M9UZ;
@@ -308,6 +389,7 @@
 				6BF7F2421F087CAB0055BBE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
